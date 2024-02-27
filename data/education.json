@@ -1,0 +1,14 @@
+[
+    {
+        "image" : "./images/chas.png",
+        "education" : "Fullstack JavaScript",
+        "time" : "2023 - 2025",
+        "description" : "Currently, I am studying Fullstack JavaScript Extended at Chas Academy. Over the next two years I will develop advanced skills in web development, with a main focus on JavaScript. After graduation I will have experience working on projects using agile methods, developing both front- and backend using JavaScript, Vue.js, React.js and TypeScript."
+    },
+    {
+        "image" : "./images/malmo.png",
+        "education" : "IMER BA Programme",
+        "time" : "2019 - 2022",
+        "description" : "My bachelor's programme International Migration and Ethnic Relations gave my deep insight into dealing with migration and diversity-related issues such as asylum law, segregation, discrimination, social cohesion, globalisation and integration. My thesis consisted of a critical discourse analysis of the Swedish news media's representation of Frontex. I graduated with top grades in each course."
+    }
+]

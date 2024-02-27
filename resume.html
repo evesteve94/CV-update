@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anonymous+Pro:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="./style/resume.css">
+</head>
+<body>
+    <header>
+        <div class="header-container">
+            <div class="logo">
+                <a href="index.html"><img src="./images/eva-logo.png" alt=""></a>
+            </div>
+            <nav>
+                        <!-- dropdown -->
+            <div class="dropdown">
+                <a class="dropbtn" id="dropdownButton"><img loading="lazy" class="menu-icon" src="./images/menu.png" alt=""></a>
+                <div class="dropdown-content" id="dropdownContent">
+                <a id="home" href="index.html">HOME</a>
+                <a id="about" href="resume.html">RESUME</a>
+                <a id="portfolio" href="projects.html">PORTFOLIO</a>
+                </div>
+            </div>
+            <!-- nav -->
+            <nav class="nav">
+                <ul>
+                    <li><a class="link-home" href="index.html">HOME</a></li>
+                    <li><a class="link-about" href="resume.html">RESUME</a></li>
+                    <li><a class="link-contact" href="projects.html">PORTFOLIO</a></li>
+                </ul>
+            </nav>
+            </nav>
+    </div>
+    </header>
+    <div class="video-container">
+        <video autoplay loop muted>
+            <source src="./images/background.mp4" type="video/mp4">
+            <!-- Add additional source elements for other video formats if needed -->
+            Your browser does not support the video tag.
+        </video>
+    </div>
+    <div class="main">
+        <h3 class="banner about">Eva|Björling <br>
+            Fullstack<span id="blink">|</span>Developer</h3>
+        <section class="section about-section">
+            <div class="contact">
+                <img src="./images/profile-transparent.png" alt="photo of Eva Björling">
+            </div>
+            <div class="intro-text">
+                <p>I am a future web developer based in Malmö, excited to take on new challenges in the world of tech. Coding under the alias 'evesteve' I hope to learn many new skills within coding!</p>
+                <p class="extra-text">I am a curious and excited future developer, currently enrolled in Chas Academy’s Fullstack JavaScript Extended Programme. In an almost completely remote environment I am constantly being challenged and honing my skills within programming, working remotely in teams, reviewing and debugging code and getting creative in every sense of the word! In the summer of ‘25 my dog Stevie and I will be looking for a new space to code, socialize, solve problems and learn. Will you take us on as part of your team? Check out my portfolio and give me a call!</p>
+
+            </div>
+        </section>
+        <h3 id="education" class="banner education">education|</h3>
+            <div class="section education-section" id="education-section"></div>
+
+        <h3 id="work" class="banner work">work|experience</h3>
+            <div class="section work-section" id="work-section"></div>
+
+        <h3 id="skillsBanner" class="banner skills">skill|set</h3>
+            <div class="section skills-section" id="skill-div"></div>
+
+        <h3 id="references" class="banner references">references|</h3>
+            <div class="section ref-section" id="ref-div"></div>
+    </div>
+    <footer>
+        <div class="footer-links">
+            <a href="https://github.com/evesteve94" target="_blank"><img src="./images/github-black.png" alt="GitHub"></a>
+            <a href="mailto:eva.bjorling@chasacademy.se" target="_blank"><img src="./images/email.png" alt="Email"></a>
+            <a href="https://www.linkedin.com/in/eva-bj%C3%B6rling-505058290/" target="_blank"><img src="./images/linkedin.png" alt="LinkedIn"></a>
+        </div>
+        <div class="footer-contact">
+            <h4>CONTACT ME</h4>
+            <p>eva.bjorling@chasacademy.se</p>
+            <p>+46 738 774 188</p>
+            <p>&copy;evesteve</p>
+        </div>
+    </footer>
+    <script src="./script/resume.js"></script>
+    <script src="./script/dropdown.js"></script>
+    <!-- <script src="./script/skill-modals.js"></script> -->
+</body>
+</html>

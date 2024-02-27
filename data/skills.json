@@ -1,0 +1,87 @@
+[
+    {
+      "title": "JavaScript",
+      "image": "./images/js.png",
+      "skill": "Advanced",
+      "course": "Web Development",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "title": "TypeScript",
+      "image": "./images/ts.png",
+      "skill": "Advanced",
+      "course": "Avancerad frontend development Typescript",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "title": "Java",
+      "image": "./images/java.png",
+      "skill": "Intermediate",
+      "course": "Programmering 1",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "title": "React",
+      "image": "./images/react.png",
+      "skill": "Novice",
+      "course": "React",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "title": "Vue.js",
+      "image": "./images/vue.png",
+      "skill": "Novice",
+      "course": "Vue.js",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "title": "Git",
+      "image": "./images/git.png",
+      "skill": "Advanced",
+      "course": "Web Development",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "title": "GitHub",
+      "image": "./images/githuborange.png",
+      "skill": "Advanced",
+      "course": "Web Development",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "title": "Node.js",
+      "image": "./images/node.png",
+      "skill": "Novice",
+      "course": "Advanced Backend Development",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "title": "Figma",
+      "image": "./images/figma.png",
+      "skill": "Intermediate",
+      "course": "UI/UX Design",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "title": "HTML",
+      "image": "./images/html.png",
+      "skill": "Advanced",
+      "course": "Web Development",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "title": "CSS",
+      "image": "./images/css.png",
+      "skill": "Advanced",
+      "course": "Web Development",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    },
+    {
+      "title": "SQL",
+      "image": "./images/sql.png",
+      "skill": "Intermediate",
+      "course": "Database Management",
+      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+    }
+  ]
+  

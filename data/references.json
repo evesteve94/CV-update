@@ -1,0 +1,23 @@
+[
+    {
+        "image" : "./images/malmo.png",
+        "name" : "Caroline Adolfsson",
+        "jobtitle": "PHD Student",
+        "email" : "caroline.adolfsson@mau.se",
+        "phone" : "076 426 1001"
+    } ,
+    {
+        "image" : "./images/sandvik.png",
+        "name" : "Jonny Lindqvist",
+        "jobtitle": "Warehouse Manager",
+        "email" : "jonny.lindqvist@sandvik.se",
+        "phone" : "073 333 83 90"
+    } ,
+    {
+        "image" : "./images/bid.png",
+        "name" : "Mike Buyers",
+        "jobtitle": "Assistant Branch Manager",
+        "email" : "mike.buyers@bidfood.co.nz",
+        "phone" : "+64 210 826 9140"
+    } 
+]

@@ -1,0 +1,506 @@
+* {
+    box-sizing: border-box;
+}
+.anonymous-pro-regular {
+    font-family: "Anonymous Pro", monospace;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .anonymous-pro-bold {
+    font-family: "Anonymous Pro", monospace;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .anonymous-pro-regular-italic {
+    font-family: "Anonymous Pro", monospace;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .anonymous-pro-bold-italic {
+    font-family: "Anonymous Pro", monospace;
+    font-weight: 700;
+    font-style: italic;
+  }
+
+  :root {
+    --main-orange: rgba(253, 172, 52, 1);
+    --main-gray: rgba(53, 53, 53, 1);
+    --variable-collection-main-gray: rgba(53, 53, 53, 0.271);
+  }
+
+  body {
+    margin: 0;
+    /* padding: 0.5rem; */
+    font-family:"Anonymous Pro", monospace;
+    color: var(--main-orange);
+    background-color:var(--main-gray);
+}
+
+/*BODY BODY BODY*/
+
+.section{
+    width: 100%;
+}
+/*ABOUT*/
+.about{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.about-title{
+    display: flex;
+    flex-direction: column;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+.section h1, h2{
+    margin: 0;
+    text-align: center;
+    text-transform:uppercase;
+    letter-spacing: 5px;
+    font-weight: 800;
+    font-style: italic;
+}
+
+.intro-div {
+    display: flex;
+    flex-direction: row;
+    /* justify-content:start; */
+    align-items: center;
+    border-radius: 0.5rem;
+    background-color: var(--variable-collection-main-gray);
+}
+
+.photo{
+    width: 50%;
+    height: auto;
+    /* align-self: flex-end; */
+    
+}
+
+.profile-photo{
+    width: 100%;
+    border-radius: 1rem;
+}
+
+p{
+    margin: 0;
+    padding: 0;
+}
+
+.intro-text{
+    width: 50%;
+    /* border-radius: 0.5rem;
+    background-color: var(--variable-collection-main-gray); */
+    padding:0.5rem;
+    /* letter-spacing: -1px; */
+    font-size: 0.9rem;
+    line-height: 1.5;
+    font-family:'Roboto', sans-serif;
+}
+
+.button-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.button{
+    background-color: var(--main-gray);
+    color: var(--main-orange);
+    border: 2px solid var(--main-orange);
+    border-radius: 1rem;
+    padding: 0.7rem;
+    font-family:"Anonymous Pro", monospace;
+    font-size: 1.1rem;
+    font-weight: 800;
+    text-decoration: none;
+}
+
+.button:hover{
+    background-color: var(--main-orange);
+    color: var(--main-gray);
+    border: 2px solid var(--main-gray);
+    border-radius: 1rem;
+    padding: 0.7rem;
+    font-family:"Anonymous Pro", monospace;
+}
+
+.about-text{
+    width: 100%;
+    border-radius: 0.5rem;
+    background-color: var(--variable-collection-main-gray);
+    padding: 0.5rem;
+    line-height: 1.5;
+    letter-spacing: -0.5px;
+    font-family:'Roboto', sans-serif;
+    text-align: center;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.772);
+}
+/*PORTFOLIO*/
+
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.portfolio-title{
+    display: flex;
+    flex-direction: column;
+}
+
+.portfolio-div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.project-tile{
+    width: 150px;
+    height: 150px;
+    background-color: var(--variable-collection-main-gray);
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.project-tile:hover{
+    background-color: var(--main-gray);
+    cursor: pointer;
+}
+
+.project-tile img {
+    width: 60%;
+}
+
+.tile-title{
+    display: block;
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    margin: 0;
+    margin-bottom: 0.5rem;
+}
+
+
+/*SKILL SET*/
+.skill-set{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.skill-div{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.skill-tile {
+    width: 100px;
+    height: 100px;
+    background-color: var(--variable-collection-main-gray);
+    border-radius: 0.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skill-tile img {
+    width: 70%;
+}
+
+.skill-tile:hover{
+    background-color: var(--main-gray);
+    cursor: pointer;
+}
+
+
+/*TOOLTIP*/
+
+.tooltip{
+    max-width: 250px;
+    height: auto;
+    background-color: var(--main-gray);
+    padding: 1rem;
+    border-radius: 0.5rem;
+    font-size: 0.8rem;
+}
+
+/* MODAL STYLING */
+.modal {
+    display: none;
+}
+
+.modal-showing {
+    display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.816);
+    z-index: 100; 
+}
+
+.modal-content {
+    background-color:var(--main-gray);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    max-width: 500px;
+    border: 2px solid var(--main-orange);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    text-align: center;
+    color:var(--main-orange);
+    font-size: 1rem;
+    /* padding-bottom: 3rem; */
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.modal-content p {
+    /* font-family: 'Roboto', sans-serif; */
+    letter-spacing: normal;
+    line-height: 1.5;
+    /* margin-bottom: 2rem; */
+}
+
+.modal-content h4 {
+    font-size: 1.7rem;
+    font-family: "Anonymous Pro", monospace;
+}
+
+.close {
+    color: #aaa;
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color:var(--main-orange);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.modal-img{
+    height: 2rem;
+}
+.inside-card-btn {
+    background-color: var(--main-orange);
+    color: var(--main-gray);
+    font-size: 1rem;
+    font-weight: 600;
+    /* font-family:'Roboto', sans-serif; */
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+    text-decoration: none;
+    text-align: center;
+    border: 0.1rem solid var(--main-orange); 
+}
+
+
+.inside-card-btn:hover {
+    color: var(--main-orange);
+    background-color: var(--main-gray);
+    border: 0.1rem solid var(--main-orange); 
+}
+
+.hidden {
+    visibility: hidden;
+}
+@keyframes blink {
+    0% {
+      opacity: 1;
+    }
+
+    50% {
+      opacity: 0.0;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  #blink {
+    animation: blink 1s infinite;
+    transition: opacity 0.7s ease-in-out; /* Adding transition */
+  }
+
+  .tile-modal-content {
+    background-color:var(--main-gray);
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    max-width: 400px;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    text-align: center;
+    color:var(--main-orange);
+    font-size: 1rem;
+    padding-bottom: 3rem;
+}
+
+.tile-modal-content h4 {
+    text-transform: uppercase;
+}
+
+.tile-modal-content p {
+    margin-top: 1rem;
+}
+
+/* tablet breakpoint */
+@media (min-width: 660px) {
+
+    .about{
+        align-items: center;
+    }
+
+    .intro-div{
+        width: 70%;
+    }
+
+    .intro-text{
+        font-size: 1.2rem;
+    }
+
+    .button-div{
+        width: 70%;
+        justify-content: space-around;
+    }
+
+    .about-text{
+        width: 70%;
+    }
+    .about{
+        max-width: 700px;
+    }
+
+    .about,
+    .portfolio-div,
+    .skill-div {
+        max-width: 700px;
+        margin: 0 auto; /* This centers the elements horizontally */
+        display: flex; /* Add display flex to use align-items */
+        align-items: center; /* Center the items vertically */
+        justify-content: center; /* Center the items horizontally */
+    }
+
+}
+
+@media (min-width: 920px) {
+    body{
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 0; */
+    
+    }
+    .main{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        align-items: start;
+        max-width: 1000px;
+        margin: 0 auto;
+        gap: 0;
+        /* justify-content: center;
+        align-items: center; */
+    }
+    .about{
+        max-width: 45%;
+        padding: 0;
+        margin: 0;
+    }
+
+    .about-title{
+        width: 100%;
+    }
+
+    .intro-div,
+    .button-div,
+    .about-text{
+        width: 100%;
+    }
+
+    .photo{
+        width: 43%;
+    }
+
+    .intro-text{
+        width: 57%;
+        font-size: 1rem;
+    }
+
+
+    .portfolio{
+        max-width: 50%;
+        margin: 0 auto; /* This centers the elements horizontally */
+        display: flex; /* Add display flex to use align-items */
+        align-items: center; /* Center the items vertically */
+        justify-content: center; /* Center the items horizontally */
+        padding: 0;
+        margin: 0;
+    }
+
+    .project-tile{
+        width: 140px;
+        height: 140px;
+    }
+
+    .project-tile img {
+        height: 60%;
+        width: 60%;
+    }
+
+    .tile-title{
+        display: block;
+        text-transform: uppercase;
+        font-size: 1.2rem;
+        margin: 0;
+        margin-bottom: 0.5rem;
+    }
+
+    h1{
+        font-size: 2.5rem;
+    }
+
+    h2{
+        font-size: 2rem;
+    }
+    .skill-set h2{
+        margin-top: 1rem;
+        font-size: 2.5rem;
+    }
+}
