@@ -127,6 +127,8 @@
     flex-direction: column;
     align-items: center;
     gap: 1rem;
+    line-height: 1.5;
+
 }
 
 .modal-content p {
@@ -146,7 +148,7 @@
     position: absolute;
     top: 0;
     right: 0;
-    font-size: 2rem;
+    font-size: 3.5rem;
     font-weight: bold;
     cursor: pointer;
 }
@@ -206,8 +208,8 @@
   /* tablet breakpoint */
 @media (min-width: 660px) {
     .project-tile{
-        width: 250px;
-        height: 250px;
+        width: 200px;
+        height: 200px;
     }
 
     .tile-title{
