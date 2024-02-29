@@ -22,5 +22,21 @@
         "email": "mike.buyers@bidfood.co.nz",
         "phone": "+64 210 826 9140",
         "alt": "Orange Bidfood Logo"
+    },
+    {
+        "image": "./images/lernia.png",
+        "name": "Susanne Moe",
+        "jobtitle": "Konsultchef",
+        "email": "susanne.moe@lernia.se",
+        "phone": "+46 722 54 11 54",
+        "alt": "Orange Lernia Logo"
+    },
+    {
+        "image": "./images/eig.png",
+        "name": "Turgut Kaan Akkoca",
+        "jobtitle": "Co-Founder",
+        "email": "kaan@eig.ist",
+        "phone": "+90 537 451 82 18 ",
+        "alt": "Orange EIG Logo"
     }
 ]
