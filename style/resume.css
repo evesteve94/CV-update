@@ -20,19 +20,26 @@
 .banner {
     text-transform: uppercase;
     font-style: italic;
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-align: center;
     width: 100%;
     padding: 1rem 0;
     background-color: var(--variable-collection-main-gray);
     margin: 0;
     transition: font-size 0.3s ease; /* Add transition for font-size */
+    border-radius: 0.5rem;
+    letter-spacing: 0.1rem;
 }
 
 .banner:hover {
     cursor: pointer;
     font-size: 2.35rem; /* Increase font size on hover */
 }
+
+.about{
+    transition: none;
+}
+
 
 @keyframes blink {
     0% {
@@ -60,22 +67,30 @@
     align-items: center;
     gap: 0.5rem;
     background-color: var(--variable-collection-main-gray);
+    font-family:'Roboto', sans-serif;
+    line-height: 1.5;
+    letter-spacing: 1px;
+    border-radius: 0.5rem;
 }
 
 .contact{
-    width: 45%;
+    width: 80%;
+    padding: 1rem;
 }
 
 .contact img {
     width: 100%;
     max-width: 400px;
+    border-radius: 0.5rem;
 }
 
 .intro-text{
-    width: 45%;
+    width: 100%;
+    padding: 0.5rem;
 }
 
-.extra-text{
+.extra-text,
+.extra-btn{
     display: none;
 }
 
@@ -91,7 +106,7 @@
 
 .card {
     width: 100%;
-    max-width: 320px;
+    /* max-width: 320px; */
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -101,6 +116,7 @@
     padding: 0.5rem;
     text-align: center;
     line-height: 1.5;
+    border-radius: 0.5rem;
 }
 
 .card img {
@@ -111,6 +127,12 @@
     text-transform: uppercase;
     font-size: 1.5rem;
     font-style: italic;
+}
+.card p {
+    font-family:'Roboto', sans-serif;
+    line-height: 1.5;
+    letter-spacing: 1px;
+
 }
 
 /*SKILL SET*/
@@ -262,7 +284,54 @@
 
 /* tablet breakpoint */
 @media (min-width: 660px) {
+    .contact{
+        width: 40%;
+    }
+
+    .extra-btn{
+        display: block;
+        text-decoration: none;
+        font-size: 1.5rem;
+        font-weight: 700;
+        color: var(--main-orange);
+        background-color: var(--variable-collection-main-gray);
+        border-radius: 0.5rem;
+        text-align: center;
+        padding: 1rem 2rem;
+        font-family:"Anonymous Pro", monospace;
+        border: 2px solid var(--main-orange);
+
+    }
+
+    .extra-btn:hover{
+        color: var(--main-gray);
+        border: 2px solid var(--main-gray);
+        background-color: var(--main-orange);
+
+    }
+
+    .intro-text{
+        width: 50%;
+    }
     .extra-text{
         display: block;
+    }
+
+    .card {
+        width: 48%;
+    }
+}
+
+@media (min-width: 920px) {
+    .card{
+        width: 32%;
+    }
+
+    .about {
+        font-size: 2.5rem;
+    }
+
+    .about:hover{
+        font-size: 2.5rem;
     }
 }

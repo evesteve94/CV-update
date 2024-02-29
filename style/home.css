@@ -104,6 +104,7 @@ p{
     font-size: 0.9rem;
     line-height: 1.5;
     font-family:'Roboto', sans-serif;
+    letter-spacing: 1px;
 }
 
 .button-div{
@@ -117,19 +118,20 @@ p{
     color: var(--main-orange);
     border: 2px solid var(--main-orange);
     border-radius: 0.5rem;
-    padding: 0.7rem;
+    padding: 1rem 2rem;
+    width: 48%;
     font-family:"Anonymous Pro", monospace;
-    font-size: 1.1rem;
+    font-size: 1.3rem;
     font-weight: 800;
     text-decoration: none;
+    text-align: center;
 }
 
 .button:hover{
     background-color: var(--main-orange);
     color: var(--main-gray);
     border: 2px solid var(--main-gray);
-    border-radius: 0.5rem;
-    padding: 0.7rem;
+    /* padding: 1rem 2rem;   */
     font-family:"Anonymous Pro", monospace;
 }
 
@@ -143,6 +145,7 @@ p{
     font-family:'Roboto', sans-serif;
     text-align: center;
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.772);
+    letter-spacing: 1px;
 }
 /*PORTFOLIO*/
 
