@@ -16,7 +16,7 @@ document.addEventListener("DOMContentLoaded", function() {
     function createProjectTile(project, index) {
         const projectTile = document.createElement('div');
         projectTile.classList.add('project-tile');
-        projectTile.innerHTML = `<h5 class="tile-title">${project.title}</h5><img src="${project.image}" alt="${project.title}">`;
+        projectTile.innerHTML = `<h5 class="tile-title">${project.title}</h5><img alt="${project.alt}" src="${project.image}" alt="${project.title}">`;
         projectTile.setAttribute('data-index', index);
         return projectTile;
     }
@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function() {
             <div class="modal" id="myModal-${project.title.replace(/\s+/g, '-')}">
                 <div class="modal-content">
                     <span class="close">&times;</span>
-                    <h4><img class="modal-img" src="${project.image}">${project.modalTitle}<img class="modal-img" src="${project.image}"></h4>
+                    <h4><img alt="${project.alt}" class="modal-img" src="${project.image}">${project.modalTitle}<img alt="${project.alt}" class="modal-img" src="${project.image}"></h4>
                     <p>${project.description}</p>
                     <a href="${project.link}" target="_blank" class="inside-card-btn">TAKE ME THERE!</a>
                     <a href="${project.gitHubLink}" target="_blank" class="inside-card-btn">GitHub</a>

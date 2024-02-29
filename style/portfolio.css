@@ -51,6 +51,26 @@
     gap: 1rem;
 }
 
+/* .project-card{
+    width: 40%;
+    background-color: var(--variable-collection-main-gray);
+    border-radius: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.project-card h5 {
+    font-size: 2rem;
+    margin: 0.5rem;
+}
+
+.card-image{
+    width: 60%;
+} */
+
 .project-tile{
     width: 150px;
     height: 150px;

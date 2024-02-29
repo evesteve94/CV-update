@@ -1,87 +1,98 @@
 [
-    {
+  {
       "title": "JavaScript",
       "image": "./images/js.png",
+      "alt": "Orange JavaScript Logo",
       "skill": "Advanced",
       "course": "Web Development",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    },
-    {
+  },
+  {
       "title": "TypeScript",
       "image": "./images/ts.png",
+      "alt": "Orange TypeScript Logo",
       "skill": "Advanced",
       "course": "Avancerad frontend development Typescript",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    },
-    {
+  },
+  {
       "title": "Java",
       "image": "./images/java.png",
+      "alt": "Orange Java Logo",
       "skill": "Intermediate",
       "course": "Programmering 1",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    },
-    {
+  },
+  {
       "title": "React",
       "image": "./images/react.png",
+      "alt": "Orange React Logo",
       "skill": "Novice",
       "course": "React",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    },
-    {
+  },
+  {
       "title": "Vue.js",
       "image": "./images/vue.png",
+      "alt": "Orange Vue.js Logo",
       "skill": "Novice",
       "course": "Vue.js",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    },
-    {
+  },
+  {
       "title": "Git",
       "image": "./images/git.png",
+      "alt": "Orange Git Logo",
       "skill": "Advanced",
       "course": "Web Development",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    },
-    {
+  },
+  {
       "title": "GitHub",
       "image": "./images/githuborange.png",
+      "alt": "Orange GitHub Logo",
       "skill": "Advanced",
       "course": "Web Development",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    },
-    {
+  },
+  {
       "title": "Node.js",
       "image": "./images/node.png",
+      "alt": "Orange Node.js Logo",
       "skill": "Novice",
       "course": "Advanced Backend Development",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    },
-    {
+  },
+  {
       "title": "Figma",
       "image": "./images/figma.png",
+      "alt": "Orange Figma Logo",
       "skill": "Intermediate",
       "course": "UI/UX Design",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    },
-    {
+  },
+  {
       "title": "HTML",
       "image": "./images/html.png",
+      "alt": "Orange HTML Logo",
       "skill": "Advanced",
       "course": "Web Development",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    },
-    {
+  },
+  {
       "title": "CSS",
       "image": "./images/css.png",
+      "alt": "Orange CSS Logo",
       "skill": "Advanced",
       "course": "Web Development",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    },
-    {
+  },
+  {
       "title": "SQL",
       "image": "./images/sql.png",
+      "alt": "Orange SQL Logo",
       "skill": "Intermediate",
       "course": "Database Management",
       "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
-    }
-  ]
-  
+  }
+]

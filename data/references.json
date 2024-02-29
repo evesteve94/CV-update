@@ -1,23 +1,26 @@
 [
     {
-        "image" : "./images/malmo.png",
-        "name" : "Caroline Adolfsson",
+        "image": "./images/malmo.png",
+        "name": "Caroline Adolfsson",
         "jobtitle": "PHD Student",
-        "email" : "caroline.adolfsson@mau.se",
-        "phone" : "076 426 1001"
-    } ,
+        "email": "caroline.adolfsson@mau.se",
+        "phone": "076 426 1001",
+        "alt": "Orange Malmo University Logo"
+    },
     {
-        "image" : "./images/sandvik.png",
-        "name" : "Jonny Lindqvist",
+        "image": "./images/sandvik.png",
+        "name": "Jonny Lindqvist",
         "jobtitle": "Warehouse Manager",
-        "email" : "jonny.lindqvist@sandvik.se",
-        "phone" : "073 333 83 90"
-    } ,
+        "email": "jonny.lindqvist@sandvik.se",
+        "phone": "073 333 83 90",
+        "alt": "Orange Sandvik Logo"
+    },
     {
-        "image" : "./images/bid.png",
-        "name" : "Mike Buyers",
+        "image": "./images/bid.png",
+        "name": "Mike Buyers",
         "jobtitle": "Assistant Branch Manager",
-        "email" : "mike.buyers@bidfood.co.nz",
-        "phone" : "+64 210 826 9140"
-    } 
+        "email": "mike.buyers@bidfood.co.nz",
+        "phone": "+64 210 826 9140",
+        "alt": "Orange Bidfood Logo"
+    }
 ]

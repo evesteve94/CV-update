@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function() {
         // Set onclick event to open modal
         tile.addEventListener('click', () => openModal(skill));
         // Set innerHTML of tile to display skill image
-        tile.innerHTML = `<img src="${skill.image}" alt="${skill.title}">`;
+        tile.innerHTML = `<img alt="${skill.alt}" src="${skill.image}" alt="${skill.title}">`;
         return tile;
     }
 
@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         <div class="modal" id="myModal-${selectedSkill.title.replace(/\s+/g, '-')}">
                             <div class="tile-modal-content">
                                 <span class="close">&times;</span>
-                                <img src="${selectedSkill.image}">
+                                <img alt="${selectedSkill.alt}" src="${selectedSkill.image}">
                                 <h4>${selectedSkill.title}</h4>                              
                                 <p>Proficiency: ${selectedSkill.skill}</p>
                                 <p>Course: ${selectedSkill.course}</p> 

@@ -19,6 +19,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
                         const image = document.createElement('img');
                         image.src = education.image;
+                        image.alt = education.alt;
                         section.appendChild(image);
 
                         const time = document.createElement('h4');
@@ -66,6 +67,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
                         const image = document.createElement('img');
                         image.src = work.image;
+                        image.alt = work.alt;
                         section.appendChild(image);
 
                         const time = document.createElement('h4');
@@ -123,7 +125,7 @@ document.addEventListener("DOMContentLoaded", function() {
     function createSkillTile(skill) {
         const tile = document.createElement('div');
         tile.classList.add('skill-tile');
-        tile.innerHTML = `<img src="${skill.image}" alt="${skill.title}">`;
+        tile.innerHTML = `<img alt="${skill.alt}" src="${skill.image}" alt="${skill.title}">`;
         tile.addEventListener('click', () => openModal(skill));
         return tile;
     }
@@ -142,7 +144,7 @@ document.addEventListener("DOMContentLoaded", function() {
                         <div class="modal" id="myModal-${selectedSkill.title.replace(/\s+/g, '-')}">
                             <div class="tile-modal-content">
                                 <span class="close">&times;</span>
-                                <img src="${selectedSkill.image}">
+                                <img alt="${selectedSkill.alt}" src="${selectedSkill.image}">
                                 <h4>${selectedSkill.title}</h4>                              
                                 <p>Proficiency: ${selectedSkill.skill}</p>
                                 <p>Course: ${selectedSkill.course}</p> 
@@ -181,6 +183,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
                         const image = document.createElement('img');
                         image.src = reference.image;
+                        image.alt = reference.alt;
                         section.appendChild(image);
 
                         const name = document.createElement('h3');
