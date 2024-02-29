@@ -1,14 +1,5 @@
 [
     {
-        "title": "Memory",
-        "image": "./images/brain.png",
-        "description": "This is a project for Code Jam for Chas Academy's Fullstack Java Extended class of '23. The game is developed in 100% html, css and js vanilla and has four different modes of difficulty. It's super dumb. Check it out!",
-        "link": "https://emojory-evesteve.netlify.app/",
-        "modalTitle": "Memory",
-        "gitHubLink": "https://github.com/evesteve94/Memory-Expanded.git",
-        "alt": "Orange Brain Logo"
-    },
-    {
         "title": "Dashboard",
         "image": "./images/dashboard.png",
         "description": "An assignment for my Advanced Frontend Dev course, coded 100% vanilla. Weather forecasts are updated in realtime from OpenWeatherAPI, the layout is editable by the user with custom backgrounds fetched from an Unplash API. The title, quick links and notepad content are interactive and saved to the browsers localStorage.",
@@ -16,15 +7,42 @@
         "modalTitle": "Dashboard",
         "gitHubLink": "https://github.com/evesteve94/dashboard-open-access",
         "alt": "Orange Dashboard Logo"
+    },     
+    {
+        "title": "Loan Crunch",
+        "image": "./images/house.png",
+        "description": "Small project coded 100% vanilla TypeScript. The user can calculate their morgage by entering loan amount, interest rate and loan period and then view a payment plan month-by-month.",
+        "link": "https://morgage-calculator-evesteve.netlify.app/",
+        "modalTitle": "Loan Crunch",
+        "gitHubLink": "https://github.com/evesteve94/morgage-calculator",
+        "alt": "Orange House Logo"
     },
     {
-        "title": "Java Joke",
-        "image": "./images/java.png",
-        "description": "This is just a silly joke by a silly goose. Pay no attention to it. Best be on your way now.. close this window.",
-        "link": "java-joke/index.html",
-        "modalTitle": "Java Joke",
-        "gitHubLink": "#",
-        "alt": "Orange Java Logo"
+        "title": "Quire",
+        "image": "./images/quire.png",
+        "description": "As part of an Agile Working Methods course, my team and I developed an online text editor. I was responisible for most of the functionality, particulary the dynamicSave() function and updating the saved notes to localStorage. Through this project I learned how to work remotely with a group, merge and solve conflicts in git and GitHub, and develope larger programs with TypeScript, all in vanilla!",
+        "link": "https://quireteammalmo.netlify.app/",
+        "modalTitle": "Quire",
+        "gitHubLink": "https://github.com/carstern/quireproject",
+        "alt": "Orange Notebook Logo"
+    },    
+    {
+        "title": "Memory",
+        "image": "./images/brain.png",
+        "description": "This is a project for Code Jam for Chas Academy's Fullstack Java Extended class of '23. The game is developed in 100% html, css and js vanilla and has four different modes of difficulty. It's super dumb. Check it out!",
+        "link": "https://emojory-evesteve.netlify.app/",
+        "modalTitle": "Memory",
+        "gitHubLink": "https://github.com/evesteve94/Memory-Expanded.git",
+        "alt": "Orange Brain Logo"
+    }, 
+    {
+        "title": "Old CV",
+        "image": "./images/cv.png",
+        "description": "This is my old CV that i developed 100% in vanilla JS. The one you are currently reading now is an exaple of how much I've learned in just two short months. Click the link and compare!",
+        "link": "https://evabjorling-cv.netlify.app/",
+        "modalTitle": "Old CV",
+        "gitHubLink": "https://github.com/evesteve94/evesteve_cv",
+        "alt": "Orange Briefcase Logo"
     },
     {
         "title": "Small Game",
@@ -52,23 +70,5 @@
         "modalTitle": "Club Mermaid",
         "gitHubLink": "https://github.com/evesteve94/club-mermaid-project.git",
         "alt": "Orange Mermaid Logo"
-    },
-    {
-        "title": "Loan Crunch",
-        "image": "./images/house.png",
-        "description": "Small project coded 100% vanilla TypeScript. The user can calculate their morgage by entering loan amount, interest rate and loan period and then view a payment plan month-by-month.",
-        "link": "https://morgage-calculator-evesteve.netlify.app/",
-        "modalTitle": "Loan Crunch",
-        "gitHubLink": "https://github.com/evesteve94/morgage-calculator",
-        "alt": "Orange House Logo"
-    },
-    {
-        "title": "Quire",
-        "image": "./images/quire.png",
-        "description": "As part of an Agile Working Methods course, my team and I developed an online text editor. I was responisible for most of the functionality, particulary the dynamicSave() function and updating the saved notes to localStorage. Through this project I learned how to work remotely with a group, merge and solve conflicts in git and GitHub, and develope larger programs with TypeScript, all in vanilla!",
-        "link": "https://quireteammalmo.netlify.app/",
-        "modalTitle": "Quire",
-        "gitHubLink": "https://github.com/carstern/quireproject",
-        "alt": "Orange Notebook Logo"
     }
 ]
