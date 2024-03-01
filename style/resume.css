@@ -40,6 +40,19 @@
     transition: none;
 }
 
+.contact-info{
+    /* font-style: italic; */
+    text-transform: lowercase;
+    font-size: 1rem;
+    text-align: center;
+    width: 100%;
+    padding: 1rem 0;
+    /* background-color: var(--variable-collection-main-gray); */
+    margin: 0;
+    border-radius: 0.5rem;
+    letter-spacing: 0.1rem;
+}
+
 
 @keyframes blink {
     0% {
