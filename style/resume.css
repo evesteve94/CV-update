@@ -344,6 +344,10 @@
         width: 32%;
     }
 
+    .about-section{
+        font-size: 1.15rem;
+    }
+
     .about {
         font-size: 2.5rem;
     }
