@@ -244,6 +244,8 @@ p{
     border-radius: 0.5rem;
     font-size: 0.8rem;
     line-height: 1.5;
+    font-family:'Roboto', sans-serif;
+    letter-spacing: 1px;
 }
 
 /* MODAL STYLING */
@@ -289,6 +291,8 @@ p{
     letter-spacing: normal;
     line-height: 1.5;
     /* margin-bottom: 2rem; */
+    font-family:'Roboto', sans-serif;
+    letter-spacing: 1px;
 }
 
 .modal-content h4 {

@@ -109,6 +109,8 @@
     padding: 1rem;
     border-radius: 0.5rem;
     font-size: 0.8rem;
+    font-family:'Roboto', sans-serif;
+    letter-spacing: 1px;
 }
 
 /* MODAL STYLING */
@@ -156,6 +158,8 @@
     letter-spacing: normal;
     line-height: 1.5;
     /* margin-bottom: 2rem; */
+    font-family:'Roboto', sans-serif;
+    letter-spacing: 1px;
 }
 
 .modal-content h4 {
