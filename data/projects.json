@@ -38,7 +38,7 @@
     {
         "title": "Old CV",
         "image": "./images/cv.png",
-        "description": "This is my old CV that i developed 100% in vanilla JS. The one you are currently reading now is an exaple of how much I've learned in just two short months. Click the link and compare!",
+        "description": "This is my old CV that i developed 100% in vanilla JS. The one you are currently reading now is an example of how much I've learned in just two short months. Click the link and compare!",
         "link": "https://evabjorling-cv.netlify.app/",
         "modalTitle": "Old CV",
         "gitHubLink": "https://github.com/evesteve94/evesteve_cv",
