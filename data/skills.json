@@ -45,7 +45,7 @@
       "alt": "Orange Git Logo",
       "skill": "Advanced",
       "course": "Web Development",
-      "description": "I feel very comfortable using Git, espescially Git Bash in an external terminal. My understanding is that internal terminals with additional help functions (such as the one in VS Code) are always changing and you can risk getting too used to one that can change any day! Through group projects I have become quite good at solving merging conflicts and safely creating feature branches to keep the main branch clean."
+      "description": "I feel very comfortable using Git, especially Git Bash in an external terminal. My understanding is that internal terminals with additional help functions (such as the one in VS Code) are always changing and you can risk getting too used to one that can change any day! Through group projects I have become quite good at solving merging conflicts and safely creating feature branches to keep the main branch clean."
   },
   {
       "title": "GitHub",
@@ -69,7 +69,7 @@
       "alt": "Orange Figma Logo",
       "skill": "Intermediate",
       "course": "UI/UX Design",
-      "description": "Though I mas still at a beginners level, I really enjoy using figma! In fact, this website was first designed as a mock-up for my very first assignment in my UX course. Developing it further in to a real website was not mandatory, but I did it for the experience and had a lot of fun doing it!"
+      "description": "Though I am still at a beginners level, I really enjoy using Figma! In fact, this website was first designed as a mock-up for my very first assignment in my UX course. Developing it further in to a real website was not mandatory, but I did it for the experience and had a lot of fun doing it!"
   },
   {
       "title": "HTML",
@@ -85,7 +85,7 @@
       "alt": "Orange CSS Logo",
       "skill": "Advanced",
       "course": "Web Development",
-      "description": "CSS has endless possiblities and for every new project I learn at least 20 new things and properties! I feel I'm getting better and better, designing my websites to be responsive, accessable, edgy and consistent."
+      "description": "CSS has endless possiblities and for every new project I learn at least 20 new things and properties! I feel I'm getting better and better at designing my websites to be responsive, accessable, edgy and consistent."
   },
   {
       "title": "SQL",
