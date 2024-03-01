@@ -5,7 +5,7 @@
       "alt": "Orange JavaScript Logo",
       "skill": "Advanced",
       "course": "Web Development",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      "description": "I feel very comfortable with JS even though I still have much to learn! Throughout my first 6 months at Chas Academy, I've only been coding 100% vanilla, which as given me a better understanding of the syntax and the appropriate use of function/code blocks in a more modular and optimized way."
   },
   {
       "title": "TypeScript",
@@ -13,7 +13,7 @@
       "alt": "Orange TypeScript Logo",
       "skill": "Advanced",
       "course": "Avancerad frontend development Typescript",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      "description": "I really prefer TS over JS for the readability! As a coding newbie, it helped me a lot to better understand and read the code without many comments or assistance online. My group project 'Quire' was coded 100% in TS vanilla and was very benefitial for me personally."
   },
   {
       "title": "Java",
@@ -21,7 +21,7 @@
       "alt": "Orange Java Logo",
       "skill": "Intermediate",
       "course": "Programmering 1",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      "description": "I feel quite comfortable with Java, though I am not an expert. It was my very fist introduction to development, and the reason I fell in love with coding!"
   },
   {
       "title": "React",
@@ -29,7 +29,7 @@
       "alt": "Orange React Logo",
       "skill": "Novice",
       "course": "React",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      "description": "Will start this course soon!"
   },
   {
       "title": "Vue.js",
@@ -37,7 +37,7 @@
       "alt": "Orange Vue.js Logo",
       "skill": "Novice",
       "course": "Vue.js",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      "description": "Will start this course soon!"
   },
   {
       "title": "Git",
@@ -45,7 +45,7 @@
       "alt": "Orange Git Logo",
       "skill": "Advanced",
       "course": "Web Development",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      "description": "I feel very comfortable using Git, espescially Git Bash in an external terminal. My understanding is that internal terminals with additional help functions (such as the one in VS Code) are always changing and you can risk getting too used to one that can change any day! Through group projects I have become quite good at solving merging conflicts and safely creating feature branches to keep the main branch clean."
   },
   {
       "title": "GitHub",
@@ -53,7 +53,7 @@
       "alt": "Orange GitHub Logo",
       "skill": "Advanced",
       "course": "Web Development",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      "description": "Github has become like a second home! Very user friendly and excellent for merging branches, performing code reviews and getting an overview or details about a project."
   },
   {
       "title": "Node.js",
@@ -61,7 +61,7 @@
       "alt": "Orange Node.js Logo",
       "skill": "Novice",
       "course": "Advanced Backend Development",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      "description": "Will start this course soon!"
   },
   {
       "title": "Figma",
@@ -69,7 +69,7 @@
       "alt": "Orange Figma Logo",
       "skill": "Intermediate",
       "course": "UI/UX Design",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      "description": "Though I mas still at a beginners level, I really enjoy using figma! In fact, this website was first designed as a mock-up for my very first assignment in my UX course. Developing it further in to a real website was not mandatory, but I did it for the experience and had a lot of fun doing it!"
   },
   {
       "title": "HTML",
@@ -77,7 +77,7 @@
       "alt": "Orange HTML Logo",
       "skill": "Advanced",
       "course": "Web Development",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      "description": "HTML is a web developer's bread and butter. I feel very comfortable creating structures."
   },
   {
       "title": "CSS",
@@ -85,7 +85,7 @@
       "alt": "Orange CSS Logo",
       "skill": "Advanced",
       "course": "Web Development",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      "description": "CSS has endless possiblities and for every new project I learn at least 20 new things and properties! I feel I'm getting better and better, designing my websites to be responsive, accessable, edgy and consistent."
   },
   {
       "title": "SQL",
@@ -93,6 +93,6 @@
       "alt": "Orange SQL Logo",
       "skill": "Intermediate",
       "course": "Database Management",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+      "description": "Will start this course soon!"
   }
 ]
