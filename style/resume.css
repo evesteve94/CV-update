@@ -277,14 +277,14 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 70%;
+    width: 90%;
     max-width: 400px;
     border-radius: 0.5rem;
     padding: 1rem;
     text-align: center;
     color:var(--main-orange);
     font-size: 1rem;
-    padding-bottom: 3rem;
+    /* padding-bottom: 3rem; */
     border: 2px solid var(--main-orange);
 }
 

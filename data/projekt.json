@@ -13,7 +13,7 @@
         "image": "./images/house.png",
         "description": "Litet projekt kodat 100 % vanilla TypeScript. Användaren kan beräkna sitt bolån genom att ange lånebelopp, ränta och låneperiod och sedan se en betalningsplan månad för månad.",
         "link": "https://morgage-calculator-evesteve.netlify.app/",
-        "modalTitle": "Lånekalkylator",
+        "modalTitle": "Bolån",
         "gitHubLink": "https://github.com/evesteve94/morgage-calculator",
         "alt": "Orange House Logo"
     },
@@ -36,7 +36,7 @@
         "alt": "Orange Brain Logo"
     }, 
     {
-        "title": "Old CV",
+        "title": "CV vers. 1.0",
         "image": "./images/cv.png",
         "description": "Detta är mitt gamla CV som jag utvecklade till 100% i vanilla JS. Den du läser just nu är ett exempel på hur mycket jag har lärt mig på bara två korta månader. Klicka på länken och jämför!",
         "link": "https://evabjorling-cv.netlify.app/",

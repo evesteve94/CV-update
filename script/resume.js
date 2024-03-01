@@ -12,6 +12,17 @@ document.addEventListener("DOMContentLoaded", function() {
         fetchWorkData(dataFiles.work);
         fetchSkillsData(dataFiles.skills);
         fetchReferencesData(dataFiles.references);
+
+        // Change banner text content based on language
+        const educationBanner = document.getElementById('education');
+        const workBanner = document.getElementById('work');
+        const skillsBanner = document.getElementById('skillsBanner');
+        const referencesBanner = document.getElementById('references');
+
+        educationBanner.textContent = isEnglish ? 'Education|' : 'Utbildning|';
+        workBanner.textContent = isEnglish ? 'Work|Experience' : 'Erfarenhet|';
+        skillsBanner.textContent = isEnglish ? 'Skill|set' : 'Meriter|';
+        referencesBanner.textContent = isEnglish ? 'References|' : 'Referenser|';
     }
 
     // Check if localStorage is supported
@@ -43,6 +54,7 @@ document.addEventListener("DOMContentLoaded", function() {
         console.log("Sorry, your browser does not support Web Storage...");
     }
 });
+
 
 function fetchEducationData(dataFile) {
     const educationBanner = document.getElementById('education');
@@ -166,62 +178,8 @@ function fetchSkillsData(dataFile) {
             skillsSection.innerHTML = ''; // Clear the skills section
             isSkillsVisible = false;
         }
-    });
-}
 
-function fetchReferencesData(dataFile) {
-    const referencesBanner = document.getElementById('references');
-    let isReferencesVisible = false;
-
-    referencesBanner.addEventListener('click', function() {
-        if (!isReferencesVisible) {
-            fetch(dataFile)
-                .then(response => response.json())
-                .then(data => {
-                    const refDiv = document.getElementById('ref-div');
-                    refDiv.innerHTML = ''; // Clear previous content
-                    data.forEach(reference => {
-                        const section = document.createElement('div');
-                        section.classList.add('card');
-
-                        const image = document.createElement('img');
-                        image.src = reference.image;
-                        image.alt = reference.alt;
-                        section.appendChild(image);
-
-                        const name = document.createElement('h3');
-                        name.textContent = reference.name;
-                        section.appendChild(name);
-
-                        const jobtitle = document.createElement('p');
-                        jobtitle.textContent = reference.jobtitle;
-                        section.appendChild(jobtitle);
-
-                        const email = document.createElement('p');
-                        email.textContent = `Email: ${reference.email}`;
-                        section.appendChild(email);
-
-                        const phone = document.createElement('p');
-                        phone.textContent = `Phone: ${reference.phone}`;
-                        section.appendChild(phone);
-
-                        refDiv.appendChild(section);
-                    });
-                })
-                .catch(error => {
-                    console.error('Error fetching references data:', error);
-                });
-
-            isReferencesVisible = true;
-        } else {
-            const refDiv = document.getElementById('ref-div');
-            refDiv.innerHTML = ''; // Clear the references section
-            isReferencesVisible = false;
-        }
-    });
-}
-
-// Function to create a skill tile
+        // Function to create a skill tile
 function createSkillTile(skill) {
     const tile = document.createElement('div');
     tile.classList.add('skill-tile');
@@ -233,7 +191,7 @@ function createSkillTile(skill) {
 // Function to open modal with skill data
 function openModal(skill) {
     // Fetch additional data for the skill modal
-    fetch('./data/skills.json')
+    fetch(dataFile)
         .then(response => response.json())
         .then(data => {
             // Find the skill data that matches the clicked skill
@@ -264,3 +222,58 @@ function openModal(skill) {
         })
         .catch(error => console.error('Error fetching skill details:', error));
 }
+    });
+}
+
+function fetchReferencesData(dataFile) {
+    const referencesBanner = document.getElementById('references');
+    let isReferencesVisible = false;
+
+    referencesBanner.addEventListener('click', function() {
+        if (!isReferencesVisible) {
+            fetch(dataFile)
+                .then(response => response.json())
+                .then(data => {
+                    const refDiv = document.getElementById('ref-div');
+                    refDiv.innerHTML = ''; // Clear previous content
+                    data.forEach(reference => {
+                        const section = document.createElement('div');
+                        section.classList.add('card');
+
+                        const image = document.createElement('img');
+                        image.src = reference.image;
+                        image.alt = reference.alt;
+                        section.appendChild(image);
+
+                        const name = document.createElement('h3');
+                        name.textContent = reference.name;
+                        section.appendChild(name);
+
+                        const jobtitle = document.createElement('h4');
+                        jobtitle.textContent = reference.jobtitle;
+                        section.appendChild(jobtitle);
+
+                        const email = document.createElement('p');
+                        email.textContent = `${reference.email}`;
+                        section.appendChild(email);
+
+                        const phone = document.createElement('p');
+                        phone.textContent = `${reference.phone}`;
+                        section.appendChild(phone);
+
+                        refDiv.appendChild(section);
+                    });
+                })
+                .catch(error => {
+                    console.error('Error fetching references data:', error);
+                });
+
+            isReferencesVisible = true;
+        } else {
+            const refDiv = document.getElementById('ref-div');
+            refDiv.innerHTML = ''; // Clear the references section
+            isReferencesVisible = false;
+        }
+    });
+}
+
