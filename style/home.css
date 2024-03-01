@@ -372,6 +372,7 @@ p{
     color:var(--main-orange);
     font-size: 1rem;
     padding-bottom: 3rem;
+    border: 2px solid var(--main-orange);
 }
 
 .tile-modal-content h4 {
@@ -380,6 +381,11 @@ p{
 
 .tile-modal-content p {
     margin-top: 1rem;
+    line-height: 1.5;
+    font-family:'Roboto', sans-serif;
+    letter-spacing: 1px;
+
+
 }
 
 /* tablet breakpoint */
