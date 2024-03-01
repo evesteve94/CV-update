@@ -1,10 +1,56 @@
 document.addEventListener("DOMContentLoaded", function() {
+    // Function to toggle visibility based on isEnglish value
+    function toggleLanguageVisibility(isEnglish) {
+        const dataFiles = {
+            education: isEnglish ? './data/education.json' : './data/utbildning.json',
+            work: isEnglish ? './data/work.json' : './data/jobb.json',
+            skills: isEnglish ? './data/skills.json' : './data/meriter.json',
+            references: isEnglish ? './data/references.json' : './data/referenser.json'
+        };
+
+        fetchEducationData(dataFiles.education);
+        fetchWorkData(dataFiles.work);
+        fetchSkillsData(dataFiles.skills);
+        fetchReferencesData(dataFiles.references);
+    }
+
+    // Check if localStorage is supported
+    if (typeof(Storage) !== "undefined") {
+        // Check if 'isEnglish' is already set in localStorage
+        if (localStorage.getItem('isEnglish') === null) {
+            // Set 'isEnglish' to true if it's not set
+            localStorage.setItem('isEnglish', 'true');
+        }
+
+        // Initial toggle based on isEnglish value
+        const isEnglish = localStorage.getItem('isEnglish') === 'true';
+        toggleLanguageVisibility(isEnglish);
+
+        // Add click event listeners to the language images to toggle language
+        const engImg = document.querySelector('.eng');
+        const sweImg = document.querySelector('.swe');
+
+        engImg.addEventListener('click', function() {
+            localStorage.setItem('isEnglish', 'true');
+            toggleLanguageVisibility(true);
+        });
+
+        sweImg.addEventListener('click', function() {
+            localStorage.setItem('isEnglish', 'false');
+            toggleLanguageVisibility(false);
+        });
+    } else {
+        console.log("Sorry, your browser does not support Web Storage...");
+    }
+});
+
+function fetchEducationData(dataFile) {
     const educationBanner = document.getElementById('education');
     let isEducationVisible = false;
 
     educationBanner.addEventListener('click', function() {
         if (!isEducationVisible) {
-            fetch('./data/education.json')
+            fetch(dataFile)
                 .then(response => response.json())
                 .then(data => {
                     const educationSection = document.getElementById('education-section');
@@ -44,15 +90,15 @@ document.addEventListener("DOMContentLoaded", function() {
             isEducationVisible = false;
         }
     });
-});
+}
 
-document.addEventListener("DOMContentLoaded", function() {
+function fetchWorkData(dataFile) {
     const workBanner = document.getElementById('work');
     let isWorkVisible = false;
 
     workBanner.addEventListener('click', function() {
         if (!isWorkVisible) {
-            fetch('./data/work.json')
+            fetch(dataFile)
                 .then(response => response.json())
                 .then(data => {
                     const workSection = document.getElementById('work-section');
@@ -82,28 +128,28 @@ document.addEventListener("DOMContentLoaded", function() {
                     });
                 })
                 .catch(error => {
-                    console.error('Error fetching education data:', error);
+                    console.error('Error fetching work data:', error);
                 });
 
             isWorkVisible = true;
         } else {
             const workSection = document.getElementById('work-section');
-            workSection.innerHTML = ''; // Clear the education section
+            workSection.innerHTML = ''; // Clear the work section
             isWorkVisible = false;
         }
     });
-});
+}
 
-document.addEventListener("DOMContentLoaded", function() {
+function fetchSkillsData(dataFile) {
     const skillsBanner = document.getElementById('skillsBanner');
     let isSkillsVisible = false;
 
     skillsBanner.addEventListener('click', function() {
-        const skillsSection = document.getElementById('skill-div');
         if (!isSkillsVisible) {
-            fetch('./data/skills.json')
+            fetch(dataFile)
                 .then(response => response.json())
                 .then(data => {
+                    const skillsSection = document.getElementById('skill-div');
                     skillsSection.innerHTML = ''; // Clear previous content
                     data.forEach(skill => {
                         const tile = createSkillTile(skill);
@@ -116,66 +162,23 @@ document.addEventListener("DOMContentLoaded", function() {
 
             isSkillsVisible = true;
         } else {
+            const skillsSection = document.getElementById('skill-div');
             skillsSection.innerHTML = ''; // Clear the skills section
             isSkillsVisible = false;
         }
     });
+}
 
-    // Function to create a skill tile
-    function createSkillTile(skill) {
-        const tile = document.createElement('div');
-        tile.classList.add('skill-tile');
-        tile.innerHTML = `<img alt="${skill.alt}" src="${skill.image}" alt="${skill.title}">`;
-        tile.addEventListener('click', () => openModal(skill));
-        return tile;
-    }
-
-    // Function to open modal with skill data
-    function openModal(skill) {
-        // Fetch additional data for the skill modal
-        fetch('./data/skills.json')
-            .then(response => response.json())
-            .then(data => {
-                // Find the skill data that matches the clicked skill
-                const selectedSkill = data.find(s => s.title === skill.title);
-                if (selectedSkill) {
-                    // Use selectedSkill data to populate modal content
-                    const modalContent = `
-                        <div class="modal" id="myModal-${selectedSkill.title.replace(/\s+/g, '-')}">
-                            <div class="tile-modal-content">
-                                <span class="close">&times;</span>
-                                <img alt="${selectedSkill.alt}" src="${selectedSkill.image}">
-                                <h4>${selectedSkill.title}</h4>                              
-                                <p>Proficiency: ${selectedSkill.skill}</p>
-                                <p>Course: ${selectedSkill.course}</p> 
-                                <p>${selectedSkill.description}</p>
-                            </div>
-                        </div>
-                    `;
-                    // Append modal content to the document body
-                    document.body.insertAdjacentHTML('beforeend', modalContent);
-                    // Show the modal
-                    const modal = document.getElementById(`myModal-${selectedSkill.title.replace(/\s+/g, '-')}`);
-                    modal.classList.add('modal-showing');
-                    // Add event listener to close the modal
-                    const closeButton = modal.querySelector('.close');
-                    closeButton.addEventListener('click', () => modal.remove());
-                }
-            })
-            .catch(error => console.error('Error fetching skill details:', error));
-    }
-});
-
-document.addEventListener("DOMContentLoaded", function() {
+function fetchReferencesData(dataFile) {
     const referencesBanner = document.getElementById('references');
     let isReferencesVisible = false;
 
     referencesBanner.addEventListener('click', function() {
-        const refDiv = document.getElementById('ref-div');
         if (!isReferencesVisible) {
-            fetch('./data/references.json')
+            fetch(dataFile)
                 .then(response => response.json())
                 .then(data => {
+                    const refDiv = document.getElementById('ref-div');
                     refDiv.innerHTML = ''; // Clear previous content
                     data.forEach(reference => {
                         const section = document.createElement('div');
@@ -211,8 +214,53 @@ document.addEventListener("DOMContentLoaded", function() {
 
             isReferencesVisible = true;
         } else {
+            const refDiv = document.getElementById('ref-div');
             refDiv.innerHTML = ''; // Clear the references section
             isReferencesVisible = false;
         }
     });
-});
+}
+
+// Function to create a skill tile
+function createSkillTile(skill) {
+    const tile = document.createElement('div');
+    tile.classList.add('skill-tile');
+    tile.innerHTML = `<img alt="${skill.alt}" src="${skill.image}" alt="${skill.title}">`;
+    tile.addEventListener('click', () => openModal(skill));
+    return tile;
+}
+
+// Function to open modal with skill data
+function openModal(skill) {
+    // Fetch additional data for the skill modal
+    fetch('./data/skills.json')
+        .then(response => response.json())
+        .then(data => {
+            // Find the skill data that matches the clicked skill
+            const selectedSkill = data.find(s => s.title === skill.title);
+            if (selectedSkill) {
+                // Use selectedSkill data to populate modal content
+                const modalContent = `
+                    <div class="modal" id="myModal-${selectedSkill.title.replace(/\s+/g, '-')}">
+                        <div class="tile-modal-content">
+                            <span class="close">&times;</span>
+                            <img alt="${selectedSkill.alt}" src="${selectedSkill.image}">
+                            <h4>${selectedSkill.title}</h4>                              
+                            <p>Proficiency: ${selectedSkill.skill}</p>
+                            <p>Course: ${selectedSkill.course}</p> 
+                            <p>${selectedSkill.description}</p>
+                        </div>
+                    </div>
+                `;
+                // Append modal content to the document body
+                document.body.insertAdjacentHTML('beforeend', modalContent);
+                // Show the modal
+                const modal = document.getElementById(`myModal-${selectedSkill.title.replace(/\s+/g, '-')}`);
+                modal.classList.add('modal-showing');
+                // Add event listener to close the modal
+                const closeButton = modal.querySelector('.close');
+                closeButton.addEventListener('click', () => modal.remove());
+            }
+        })
+        .catch(error => console.error('Error fetching skill details:', error));
+}

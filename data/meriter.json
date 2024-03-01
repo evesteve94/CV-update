@@ -1,0 +1,99 @@
+[
+    {
+        "title": "JavaScript",
+        "image": "./images/js.png",
+        "alt": "Orange JavaScript Logo",
+        "skill": "Avancerad",
+        "course": "Webbutveckling",
+        "description": "Jag känner mig väldigt bekväm med JS även om jag fortfarande har mycket att lära! Under mina första 6 månader på Chas Academy har jag bara kodat 100% vanilla, vilket har gett mig en bättre förståelse för syntaxen och lämplig användning av funktions-/kodblock på ett mer modulärt och optimerat sätt."
+    },
+    {
+        "title": "TypeScript",
+        "image": "./images/ts.png",
+        "alt": "Orange TypeScript Logo",
+        "skill": "Avancerad",
+        "course": "Avancerad frontend-utveckling Typescript",
+        "description": "Jag föredrar verkligen TS framför JS för läsbarheten! Som nybörjare i kodning hjälpte det mig mycket att bättre förstå och läsa koden utan många kommentarer eller hjälp online. Mitt gruppprojekt 'Quire' kodades till 100 % i TS vanilla och var mycket fördelaktigt för mig personligen."
+    },
+    {
+        "title": "Java",
+        "image": "./images/java.png",
+        "alt": "Orange Java Logo",
+        "skill": "Mellanliggande",
+        "course": "Programmering 1",
+        "description": "Jag känner mig ganska bekväm med Java, även om jag inte är någon expert. Det var min allra första introduktion till utveckling, och anledningen till att jag blev kär i kodning!"
+    },
+    {
+        "title": "React",
+        "image": "./images/react.png",
+        "alt": "Orange React Logo",
+        "skill": "Nybörjare",
+        "course": "React",
+        "description": "Denna kurs startar snart!"
+    },
+    {
+        "title": "Vue.js",
+        "image": "./images/vue.png",
+        "alt": "Orange Vue.js Logo",
+        "skill": "Nybörjare",
+        "course": "Vue.js",
+        "description": "Denna kurs startar snart!"
+    },
+    {
+        "title": "Git",
+        "image": "./images/git.png",
+        "alt": "Orange Git Logo",
+        "skill": "Avancerad",
+        "course": "Webbutveckling",
+        "description": "Jag känner mig väldigt bekväm med att använda Git, speciellt Git Bash i en extern terminal. Jag förstår att interna terminaler med ytterligare hjälpfunktioner (som den i VS Code) alltid förändras och du kan riskera att vänja dig för mycket vid en som kan ändras vilken dag som helst! Genom gruppprojekt har jag blivit ganska bra på att lösa sammanslagna konflikter och på ett säkert sätt skapa funktionsgrenar för att hålla huvudgrenen ren."
+    },
+    {
+        "title": "GitHub",
+        "image": "./images/githuborange.png",
+        "alt": "Orange GitHub Logo",
+        "skill": "Avancerad",
+        "course": "Webbutveckling",
+        "description": "Github har blivit som ett andra hem! Mycket användarvänlig och utmärkt för att slå samman grenar, utföra kodgranskning och få en överblick eller detaljer om ett projekt."
+    },
+    {
+        "title": "Node.js",
+        "image": "./images/node.png",
+        "alt": "Orange Node.js Logo",
+        "skill": "Nybörjare",
+        "course": "Avancerad Backend Development",
+        "description": "Denna kurs startar snart!"
+    },
+    {
+        "title": "Figma",
+        "image": "./images/figma.png",
+        "alt": "Orange Figma Logo",
+        "skill": "Mellanliggande",
+        "course": "UI/UX Design",
+        "description": "Även om jag fortfarande är på nybörjarnivå, tycker jag verkligen om att använda Figma! Faktum är att den här webbplatsen först designades som en mock-up för min allra första uppgift i min UX-kurs. Att utveckla den vidare till en riktig webbplats var inte obligatoriskt, men jag gjorde det för upplevelsen och hade väldigt roligt under processens gång!"
+    },
+    {
+        "title": "HTML",
+        "image": "./images/html.png",
+        "alt": "Orange HTML Logo",
+        "skill": "Avancerad",
+        "course": "Web Development",
+        "description": "HTML är en webbutvecklares vardag. Jag känner mig väldigt bekväm med att skapa strukturer."
+    },
+    {
+        "title": "CSS",
+        "image": "./images/css.png",
+        "alt": "Orange CSS Logo",
+        "skill": "Avancerad",
+        "course": "Webbutveckling",
+        "description": "CSS har oändliga möjligheter och för varje nytt projekt lär jag mig minst 20 nya saker och egenskaper! Jag känner att jag blir bättre och bättre på att designa mina webbplatser för att vara responsiva, tillgängliga, edgy och konsekventa."
+    },
+    {
+        "title": "SQL",
+        "image": "./images/sql.png",
+        "alt": "Orange SQL Logo",
+        "skill": "Nybörjare",
+        "course": "Database Management",
+        "description": "Denna kurs startar snart!"
+    }
+  ]
+  

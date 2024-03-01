@@ -53,6 +53,21 @@
     width: 100%;
 }
 
+.language{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: flex-start;
+    gap: 1rem;
+    /* width: 10%; */
+}
+
+.swe,
+.eng {
+    width: 30px;
+    /* margin-left: 1rem; */
+}
+
 header{
     display: flex;
     justify-content: center;

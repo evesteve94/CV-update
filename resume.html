@@ -18,16 +18,8 @@
             <div class="logo">
                 <a href="index.html"><img src="./images/eva-logo.png" alt=""></a>
             </div>
+
             <nav>
-                        <!-- dropdown -->
-            <div class="dropdown">
-                <a class="dropbtn" id="dropdownButton"><img loading="lazy" class="menu-icon" src="./images/menu.png" alt=""></a>
-                <div class="dropdown-content" id="dropdownContent">
-                <a id="home" href="index.html">HOME</a>
-                <a id="about" href="resume.html">RESUMÉ</a>
-                <a id="portfolio" href="projects.html">PORTFOLIO</a>
-                </div>
-            </div>
             <!-- nav -->
             <nav class="nav">
                 <ul>
@@ -36,7 +28,20 @@
                     <li><a class="link-contact" href="projects.html">PORTFOLIO</a></li>
                 </ul>
             </nav>
-            </nav>
+            </nav>            
+            <div class="language">
+                <img class="eng" src="./images/eng.png" alt="english text version">
+                <img class="swe" src="./images/swe.png" alt="swedish text version">
+            </div>
+                                    <!-- dropdown -->
+            <div class="dropdown">
+                <a class="dropbtn" id="dropdownButton"><img loading="lazy" class="menu-icon" src="./images/menu.png" alt=""></a>
+                <div class="dropdown-content" id="dropdownContent">
+                <a id="home" href="index.html">HOME</a>
+                <a id="about" href="resume.html">RESUMÉ</a>
+                <a id="portfolio" href="projects.html">PORTFOLIO</a>
+                </div>
+            </div>
     </div>
     </header>
     <div class="video-container">
@@ -57,8 +62,10 @@
                 <!-- <a class="extra-btn" href="projects.html">contact</a> -->
             </div>
             <div class="intro-text">
-                <p>I am a future web developer based in Malmö, excited to take on new challenges in the world of tech, coding under the alias 'evesteve' with my dog Stevie.</p>
-                <p class="extra-text">I am a curious and excited future developer, currently enrolled in Chas Academy’s Fullstack JavaScript Extended Programme. In an almost completely remote environment I am constantly being challenged and honing my skills within programming, working remotely in teams, reviewing and debugging code and getting creative in every sense of the word! In the summer of ‘25 my dog Stevie and I will be looking for a new space to code, socialize, solve problems and learn. Will you take us on as part of your team? Check out my portfolio and give me a call!</p>
+                <p id="intro-text-eng">I am a future web developer based in Malmö, excited to take on new challenges in the world of tech, coding under the alias 'evesteve' with my dog Stevie.</p>
+                <p id="intro-text-swe">Jag är en framtida webbutvecklare baserad i Malmö, glad över att ta mig an nya utmaningar inom teknikvärlden, kodande med aliaset "evesteve" med min hund Stevie.</p>
+                <p class="extra-text" id="about-text-eng">I am a curious and excited future developer, currently enrolled in Chas Academy’s Fullstack JavaScript Extended Programme. In an almost completely remote environment I am constantly being challenged and honing my skills within programming, working remotely in teams, reviewing and debugging code and getting creative in every sense of the word! In the summer of ‘25 my dog Stevie and I will be looking for a new space to code, socialize, solve problems and learn. Will you take us on as part of your team? Check out my portfolio and give me a call!</p>
+                <p class="extra-text" id="about-text-swe">Jag är en nyfiken och glad framtida utvecklare, för närvarande studerande på Chas Academys Fullstack JavaScript Extended Program. I en nästan helt digital miljö utmanas jag ständigt och finslipar mina kunskaper inom programmering, arbetar på distans i team, granskar och felsöker kod och blir kreativ i ordets alla bemärkelser! Sommaren 25 kommer jag och min hund Stevie att leta efter ett nytt utrymme för att koda, umgås, lösa problem och lära. Kommer du att anta oss som en del av ditt team? Kolla in min portfolio och ring mig!</p>
 
             </div>
         </section>
@@ -89,6 +96,9 @@
             <p>&copy;evesteve</p>
         </div>
     </footer>
+    <script src="./script/language.js"></script>
+    <!-- <script src="./script/modal.js"></script> -->
+    <script src="./script/skill-modals.js"></script>
     <script src="./script/resume.js"></script>
     <script src="./script/dropdown.js"></script>
     <!-- <script src="./script/skill-modals.js"></script> -->

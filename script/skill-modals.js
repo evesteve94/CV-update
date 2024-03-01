@@ -1,19 +1,54 @@
 document.addEventListener("DOMContentLoaded", function() {
-    const skillDiv = document.getElementById('skillDiv');
+    const skillDiv = document.getElementById('skill-div');
 
-    // Fetch data from skills.json
-    fetch('./data/skills.json')
-        .then(response => response.json())
-        .then(data => {
-            // Iterate over each skill in the JSON data
-            data.forEach((skill, index) => {
-                // Create a skill tile element
-                const skillTile = createSkillTile(skill, index);
-                // Append the tile to the skillDiv
-                skillDiv.appendChild(skillTile);
-            });
-        })
-        .catch(error => console.error('Error fetching skills:', error));
+    // Function to toggle visibility based on isEnglish value
+    function toggleLanguageVisibility(isEnglish) {
+        const dataFile = isEnglish ? './data/skills.json' : './data/meriter.json';
+        skillDiv.innerHTML = ''; // Clear previous content
+        
+        // Fetch data from the appropriate JSON file
+        fetch(dataFile)
+            .then(response => response.json())
+            .then(data => {
+                // Iterate over each skill in the JSON data
+                data.forEach((skill, index) => {
+                    // Create a skill tile element
+                    const skillTile = createSkillTile(skill, index);
+                    // Append the tile to the skillDiv
+                    skillDiv.appendChild(skillTile);
+                });
+            })
+            .catch(error => console.error('Error fetching skills:', error));
+    }
+
+    // Check if localStorage is supported
+    if (typeof(Storage) !== "undefined") {
+        // Check if 'isEnglish' is already set in localStorage
+        if (localStorage.getItem('isEnglish') === null) {
+            // Set 'isEnglish' to true if it's not set
+            localStorage.setItem('isEnglish', 'true');
+        }
+
+        // Initial toggle based on isEnglish value
+        const isEnglish = localStorage.getItem('isEnglish') === 'true';
+        toggleLanguageVisibility(isEnglish);
+
+        // Add click event listeners to the language images to toggle language
+        const engImg = document.querySelector('.eng');
+        const sweImg = document.querySelector('.swe');
+
+        engImg.addEventListener('click', function() {
+            localStorage.setItem('isEnglish', 'true');
+            toggleLanguageVisibility(true);
+        });
+
+        sweImg.addEventListener('click', function() {
+            localStorage.setItem('isEnglish', 'false');
+            toggleLanguageVisibility(false);
+        });
+    } else {
+        console.log("Sorry, your browser does not support Web Storage...");
+    }
 
     // Function to create a skill tile
     function createSkillTile(skill, index) {
@@ -31,8 +66,10 @@ document.addEventListener("DOMContentLoaded", function() {
 
     // Function to open modal with skill data
     function openModal(skill) {
+        const isEnglish = localStorage.getItem('isEnglish') === 'true';
+        const dataFile = isEnglish ? './data/skills.json' : './data/meriter.json';
         // Fetch additional data for the skill modal
-        fetch('./data/skills.json')
+        fetch(dataFile)
             .then(response => response.json())
             .then(data => {
                 // Find the skill data that matches the clicked skill
@@ -64,4 +101,3 @@ document.addEventListener("DOMContentLoaded", function() {
             .catch(error => console.error('Error fetching skill details:', error));
     }
 });
-

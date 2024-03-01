@@ -1,0 +1,74 @@
+[
+    {
+        "title": "Dashboard",
+        "image": "./images/dashboard.png",
+        "description": "En uppgift för min Advanced Frontend Dev-kurs, kodad 100% vanilla. Väderprognoser uppdateras i realtid från OpenWeatherAPI, layouten kan redigeras av användaren med anpassade bakgrunder hämtade från ett Unplash API. Titeln, snabblänkarna och anteckningsblockets innehåll är interaktiva och sparas i webbläsarens localStorage.",
+        "link": "https://dashboard-evesteve-open-access.netlify.app/",
+        "modalTitle": "Dashboard",
+        "gitHubLink": "https://github.com/evesteve94/dashboard-open-access",
+        "alt": "Orange Dashboard Logo"
+    },     
+    {
+        "title": "Bolån",
+        "image": "./images/house.png",
+        "description": "Litet projekt kodat 100 % vanilla TypeScript. Användaren kan beräkna sitt bolån genom att ange lånebelopp, ränta och låneperiod och sedan se en betalningsplan månad för månad.",
+        "link": "https://morgage-calculator-evesteve.netlify.app/",
+        "modalTitle": "Lånekalkylator",
+        "gitHubLink": "https://github.com/evesteve94/morgage-calculator",
+        "alt": "Orange House Logo"
+    },
+    {
+        "title": "Quire",
+        "image": "./images/quire.png",
+        "description": "Som en del av en kurs i Agila arbetsmetoder utvecklade jag och mitt team en textredigerare online. Jag var ansvarig för det mesta av funktionaliteten, särskilt funktionen dynamicSave() och uppdateringen av de sparade anteckningarna till localStorage. Genom detta projekt lärde jag mig att arbeta på distans med en grupp, slå samman och lösa konflikter i git och GitHub, och utveckla större program med TypeScript, allt i vanilla!",
+        "link": "https://quireteammalmo.netlify.app/",
+        "modalTitle": "Quire",
+        "gitHubLink": "https://github.com/carstern/quireproject",
+        "alt": "Orange Notebook Logo"
+    },    
+    {
+        "title": "Memory",
+        "image": "./images/brain.png",
+        "description": "Detta är ett projekt för Code Jam for Chas Academys Fullstack Java Extended-klass av '23. Spelet är utvecklat i 100 % html, css och js vanilla och har fyra olika svårighetslägen. Det är superdumt. Kolla in det!",
+        "link": "https://emojory-evesteve.netlify.app/",
+        "modalTitle": "Memory",
+        "gitHubLink": "https://github.com/evesteve94/Memory-Expanded.git",
+        "alt": "Orange Brain Logo"
+    }, 
+    {
+        "title": "Old CV",
+        "image": "./images/cv.png",
+        "description": "Detta är mitt gamla CV som jag utvecklade till 100% i vanilla JS. Den du läser just nu är ett exempel på hur mycket jag har lärt mig på bara två korta månader. Klicka på länken och jämför!",
+        "link": "https://evabjorling-cv.netlify.app/",
+        "modalTitle": "Old CV",
+        "gitHubLink": "https://github.com/evesteve94/evesteve_cv",
+        "alt": "Orange Briefcase Logo"
+    },
+    {
+        "title": "Litet Spel",
+        "image": "./images/rock.png",
+        "description": "Detta är ytterligare ett projekt från våra Code Jam-sessioner. Ett enkelt sten-, papper-, saxspel kodat till 100 % i vanilla html, css och javascript!",
+        "link": "https://rock-paper-scissors-evesteve.netlify.app/",
+        "modalTitle": "Rock, Paper, Scissors",
+        "gitHubLink": "https://github.com/evesteve94/rock-paper-scissors.git",
+        "alt": "Orange Fist Logo"
+    },
+    {
+        "title": "CSS Grid",
+        "image": "./images/css.png",
+        "description": "Detta är ett litet projekt för att prova Grid som en layout, arbeta med lyhördhet. Layouten med ändring av laptop, surfplatta och mobilvy. Det är ett litet galleri av min hund Stevie.",
+        "link": "grid-layout-project/index.html",
+        "modalTitle": "CSS Grid",
+        "gitHubLink": "#",
+        "alt": "Orange CSS Logo"
+    },
+    {
+        "title": "Mermaid",
+        "image": "./images/club.png",
+        "description": "Detta är ett sidoprojekt för min favorit lokala dragklubb. Den är baserad på deras egna hemsida, men förbättrad med mer detaljerad information, bilder och responsivitet. Jämför med originalet: https://clubmermaid.se/",
+        "link": "https://club-mermaid-evesteve.netlify.app/",
+        "modalTitle": "Club Mermaid",
+        "gitHubLink": "https://github.com/evesteve94/club-mermaid-project.git",
+        "alt": "Orange Mermaid Logo"
+    }
+]

@@ -1,0 +1,51 @@
+[
+    {
+        "image": "./images/sandvik.png",
+        "work": "Truckförare",
+        "time": "2019 - 2023",
+        "description": "Under de senaste fyra åren har jag arbetat jag deltid som truckförare på ett stort lager i Svedala. Där har jag lärt mig att prestera under press och multitaska med både fysiska och administrativa uppgifter. Jag assisterade och deltog under företagets övergång till SAP.",
+        "alt": "Orange Sandvik Logo"
+    },
+    {
+        "image": "./images/eig.png",
+        "work": "Project Manager/Intern",
+        "time": "2021 - 2022",
+        "description": "Under min praktik på European Integration Group i Istanbul ansvarade jag för tre olika ungdomsutbyten i Turkiet som diskussionsledare, där jag planerade och genomförde relevanta aktiviteter. Jag ansvarade för kommunikation, budget och reseplanering för över 120 unga deltagare i våra projekt, samt skrev slutrapporterna.",
+        "alt": "Orange EIG Logo"
+    },
+    {
+        "image": "./images/malmo.png",
+        "work": "Research Assistant",
+        "time": "2020 - 2021",
+        "description": "Jag har arbetat med två doktorander vid MAU som forskningsassistent, transkriberat och översatt intervjuer för studier som rör etniska relationer och samhällsvetenskap. Hittills har det varit ett utmärkt tillfälle att bekanta mig med de tidiga stegen i forskningsprojekt, i hopp om att kunna genomföra mitt eget någon gång.",
+        "alt": "Orange Malmo University Logo"
+    },
+    {
+        "image": "./images/amberscript.png",
+        "work": "Transcriber",
+        "time": "2020 - 2021",
+        "description": "Efter att ha arbetat frilans som transkriberare med AmberScripts egen AI-mjukvara, har jag fått värdefulla färdigheter i att skriva både snabbt och effektivt. Jobbet krävde att jag var detaljorienterad när det gäller att skriva och lyssna, samt vara punktlig gällande deadlines. Att balansera detta jobb vid sidan av heltidsstudier och två andra deltidsjobb lärde mig flexibilitet och att ta mig an uppdrag baserat på prioriterade rankningar.",
+        "alt": "Orange AmberScript Logo"
+    },
+    {
+        "image": "./images/alfa.png",
+        "work": "Warehouse Worker",
+        "time": "2018 - 2019",
+        "description": "På Alfa Laval växlade jag mellan morgon- och nattpass. Mitt huvudsakliga ansvar var att plocka och packa material för att montera värmeväxlare. Förutom vanliga lageruppgifter, som att praktisera säker gaffeltruckkörning, utföra inventering och uppdatera den interna lagerdatabasen, fick jag även i uppdrag att utbilda nya medarbetare.",
+        "alt": "Orange Alfa Laval Logo"
+    },
+    {
+        "image": "./images/bid.png",
+        "work": "Warehouse Manager",
+        "time": "2017 - 2018",
+        "description": "I ungefär ett år ansvarade jag för kyllagret hos en nationell hotell- och restaurangmatleverantör. Förutom att utbilda ny personal och genomföra dagliga kvalitets- och temperaturkontroller, fick jag förtroende för att skapa mina egna arbetsrutiner och system för alla omfattande dagliga, veckovisa och månatliga uppgifter inom kyllagret. Den här erfarenheten gav mig helt nya organisatoriska och ledande färdigheter som jag bär med mig idag.",
+        "alt": "Orange Bidfood Logo"
+    },
+    {
+        "image": "./images/ikea.png",
+        "work": "Logistics Team Member",
+        "time": "2016 - 2017",
+        "description": "På det centrala Richmond IKEA-varuhuset i Melbourne arbetade jag sida vid sida med ett fantastiskt team av hårt arbetande individer för att fylla på och organisera produkter i hela butiken innan öppettiderna. Dessa arbetsuppgifter innefattade ofta tuffa och tunga lyft, noggrann planering och krävde snabb och effektiv kommunikation inom teamet. Sammantaget förbättrade det här jobbet min kommunikations- och lagarbete.",
+        "alt": "Orange IKEA Logo"
+    }
+]

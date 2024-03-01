@@ -4,7 +4,20 @@
     --variable-collection-main-gray: rgba(53, 53, 53, 0.271);
   }
 
+  .language{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    justify-self: flex-start;
+    gap: 1rem;
+    width: 10%;
+}
 
+.swe,
+.eng {
+    width: 30px;
+    /* margin-left: 1rem; */
+}
   .main{
     display: flex;
     flex-direction: row;
@@ -111,6 +124,7 @@
     font-size: 0.8rem;
     font-family:'Roboto', sans-serif;
     letter-spacing: 1px;
+    line-height: 1.5;
 }
 
 /* MODAL STYLING */
