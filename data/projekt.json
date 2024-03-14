@@ -54,11 +54,11 @@
         "alt": "Orange Fist Logo"
     },
     {
-        "title": "To Do List",
+        "title": "To Do Lista",
         "image": "./images/todo.png",
         "description": "Detta är min allra första app kodad i React! Det är en enkel att göra-lista som består av ett fåtal komponenter som använder localStorage och useState. Funktioner inkluderar: lägga till, sök, bocka av och ta bort.",
         "link": "https://todo-list-evesteve.netlify.app/",
-        "modalTitle": "To Do List",
+        "modalTitle": "To Do Lista",
         "gitHubLink": "https://github.com/evesteve94/todo-list",
         "alt": "Orange Checked Logo"
     },
