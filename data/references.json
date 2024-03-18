@@ -1,5 +1,13 @@
 [
     {
+        "image": "./images/qlok.png",
+        "name": "Arnar Johansson",
+        "jobtitle": "Fullstack Developer/Teacher at Chas",
+        "email": "arnar.johannsson@qlok.se",
+        "phone": "",
+        "alt": "Orange Qlok Logo"
+    },
+    {
         "image": "./images/malmo.png",
         "name": "Caroline Adolfsson",
         "jobtitle": "PHD Student",
