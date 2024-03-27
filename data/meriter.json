@@ -56,6 +56,14 @@
         "description": "Github har blivit som ett andra hem! Mycket användarvänlig och utmärkt för att slå samman grenar, utföra kodgranskning och få en överblick eller detaljer om ett projekt."
     },
     {
+        "title": "Agila Arbetsmetoder",
+        "image": "./images/agile.png",
+        "alt": "Orange Kanban Logo",
+        "skill": "Mellanliggande",
+        "course": "Agile Metoder och Arbetsmetodik",
+        "description": "Under denna kurs arbetade jag med agila metoder som Scum, Kanban och Extreme Programming intensivt under ett längre grupprojekt. Jag känner att det har medfört en verklig bild av hur arbetsmetodiken fungerar på de flesta företag och bär med mig dessa kunskaper ut i arbetslivet."
+    },
+    {
         "title": "Node.js",
         "image": "./images/node.png",
         "alt": "Orange Node.js Logo",

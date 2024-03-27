@@ -56,6 +56,14 @@
       "description": "Github has become like a second home! Very user friendly and excellent for merging branches, performing code reviews and getting an overview or details about a project."
   },
   {
+    "title": "Agile Working Methods",
+    "image": "./images/agile.png",
+    "alt": "Orange Kanban Logo",
+    "skill": "Intermediate",
+    "course": "Agile Working Methods",
+    "description": "During this course I worked with agile methods such as Scum, Kanban and Extreme Programming intensively during a longer group project. I feel that it has given me a real picture of how the working methodology works in most companies and I carry this knowledge with me into the workplace."
+},
+  {
       "title": "Node.js",
       "image": "./images/node.png",
       "alt": "Orange Node.js Logo",
