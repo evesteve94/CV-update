@@ -29,7 +29,7 @@
       "alt": "Orange React Logo",
       "skill": "Novice",
       "course": "React",
-      "description": "Will start this course soon!"
+      "description": "I have started to understand React more and more. It gives me a new way of thinking about frontend development and I like the possibilities it gives through its component-based structure to reuse code! Looking forward to honing my skills further!"
   },
   {
       "title": "Vue.js",
@@ -93,6 +93,86 @@
       "alt": "Orange SQL Logo",
       "skill": "Intermediate",
       "course": "Database Management",
+      "description": "Will start this course soon!"
+  },
+  {
+      "title": "Azure",
+      "image": "./images/azure.png",
+      "alt": "Orange Azure Logo",
+      "skill": "Novice",
+      "course": "Hosting & CI/CD",
+      "description": "Will start this course soon!"
+  },
+  {
+      "title": "Python",
+      "image": "./images/python.png",
+      "alt": "Orange Python Logo",
+      "skill": "Novice",
+      "course": "Introduction to Python - summer course",
+      "description": "Will start this course soon!"
+  },
+  {
+      "title": "Docker",
+      "image": "./images/docker.png",
+      "alt": "Orange Docker Logo",
+      "skill": "Novice",
+      "course": "Hosting & CI/CD",
+      "description": "Will start this course soon!"
+  },
+  {
+      "title": "Jira",
+      "image": "./images/jira.png",
+      "alt": "Orange Jira Logo",
+      "skill": "Novice",
+      "course": "Hosting & CI/CD",
+      "description": "Will start this course soon!"
+  },
+  {
+      "title": "C++",
+      "image": "./images/c-plus-plus.png",
+      "alt": "Orange C plus plus Logo",
+      "skill": "Novice",
+      "course": "Introduction to C++",
+      "description": "Will start this course soon!"
+  },
+  {
+      "title": "Express.js",
+      "image": "./images/express.png",
+      "alt": "Orange Express.js Logo",
+      "skill": "Novice",
+      "course": "Advanced Backend Development",
+      "description": "Will start this course soon!"
+  },
+  {
+      "title": "Mongo db",
+      "image": "./images/mongodb.png",
+      "alt": "Orange Mongo DB Logo",
+      "skill": "Novice",
+      "course": "Advanced Backend Development",
+      "description": "Will start this course soon!"
+  },
+  {
+      "title": "AWS",
+      "image": "./images/aws.png",
+      "alt": "Orange AWS Logo",
+      "skill": "Novice",
+      "course": "Hosting & CI/CD",
+      "description": "Will start this course soon!"
+  },
+  {
+      "title": "Google Cloud",
+      "image": "./images/google-cloud.png",
+      "alt": "Orange Google Cloud Logo",
+      "skill": "Novice",
+      "course": "Advanced Backend Development",
+      "description": "Will start this course soon!"
+  },
+  {
+      "title": "Redux",
+      "image": "./images/redux.png",
+      "alt": "Orange Redux Logo",
+      "skill": "Novice",
+      "course": "React",
       "description": "Will start this course soon!"
   }
 ]

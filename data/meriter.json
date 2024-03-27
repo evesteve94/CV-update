@@ -27,9 +27,9 @@
         "title": "React",
         "image": "./images/react.png",
         "alt": "Orange React Logo",
-        "skill": "Nybörjare",
+        "skill": "Mellanliggande",
         "course": "React",
-        "description": "Denna kurs startar snart!"
+        "description": "Har börjat förstå React bättre och bättre. Det ger mig ett nyt sätt att tänka på frontend utveckling och gillar möjligheterna det ger genom sin komponent-baserade uppbyggnad att återanvända kod! Ser fram emot att finslipa mina kunskaper ytterligare!"
     },
     {
         "title": "Vue.js",
@@ -93,6 +93,86 @@
         "alt": "Orange SQL Logo",
         "skill": "Nybörjare",
         "course": "Database Management",
+        "description": "Denna kurs startar snart!"
+    },
+    {
+        "title": "Azure",
+        "image": "./images/azure.png",
+        "alt": "Orange Azure Logo",
+        "skill": "Nybörjare",
+        "course": "Hosting & CI/CD",
+        "description": "Denna kurs startar snart!"
+    },
+    {
+        "title": "Python",
+        "image": "./images/python.png",
+        "alt": "Orange Python Logo",
+        "skill": "Nybörjare",
+        "course": "Introduction to Python - summer course",
+        "description": "Denna kurs startar snart!"
+    },
+    {
+        "title": "Docker",
+        "image": "./images/docker.png",
+        "alt": "Orange Docker Logo",
+        "skill": "Nybörjare",
+        "course": "Hosting & CI/CD",
+        "description": "Denna kurs startar snart!"
+    },
+    {
+        "title": "Jira",
+        "image": "./images/jira.png",
+        "alt": "Orange Jira Logo",
+        "skill": "Nybörjare",
+        "course": "Hosting & CI/CD",
+        "description": "Denna kurs startar snart!"
+    },
+    {
+        "title": "C++",
+        "image": "./images/c-plus-plus.png",
+        "alt": "Orange C plus plus Logo",
+        "skill": "Nybörjare",
+        "course": "Introduction to C++",
+        "description": "Denna kurs startar snart!"
+    },
+    {
+        "title": "Express.js",
+        "image": "./images/express.png",
+        "alt": "Orange Express.js Logo",
+        "skill": "Nybörjare",
+        "course": "Advanced Backend Development",
+        "description": "Denna kurs startar snart!"
+    },
+    {
+        "title": "Mongo db",
+        "image": "./images/mongodb.png",
+        "alt": "Orange Mongo DB Logo",
+        "skill": "Nybörjare",
+        "course": "Advanced Backend Development",
+        "description": "Denna kurs startar snart!"
+    },
+    {
+        "title": "AWS",
+        "image": "./images/aws.png",
+        "alt": "Orange AWS Logo",
+        "skill": "Nybörjare",
+        "course": "Hosting & CI/CD",
+        "description": "Denna kurs startar snart!"
+    },
+    {
+        "title": "Google Cloud",
+        "image": "./images/google-cloud.png",
+        "alt": "Orange Google Cloud Logo",
+        "skill": "Nybörjare",
+        "course": "Advanced Backend Development",
+        "description": "Denna kurs startar snart!"
+    },
+    {
+        "title": "Redux",
+        "image": "./images/redux.png",
+        "alt": "Orange Redux Logo",
+        "skill": "Nybörjare",
+        "course": "React",
         "description": "Denna kurs startar snart!"
     }
   ]
