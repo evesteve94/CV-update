@@ -18,7 +18,7 @@
     width: 30px;
     /* margin-left: 1rem; */
 }
-  .main{
+.main{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -27,15 +27,41 @@
     max-width: 1000px;
     margin: 0 auto;
     gap: 1rem;
-    /* justify-content: center;
-    align-items: center; */
+    flex-grow: 1; /* This will make .main take up all available space */
 }
-  .section{
+
+  /* .section{
     width: 100%;
-}
-.portfolio{
+    display: flex;
+    flex-wrap: wrap;
+} */
+
+.display-div{
+    width: 100%;
+    height: fit-content;
+    background-color: var(--variable-collection-main-gray);
+    border-radius: 0.5rem;
+    padding: 1rem;
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+    /* border: 2px solid var(--main-orange); */
+}
+
+.display-img{
+    width: 40%;
+}
+
+.display-description{
+    line-height: 1.5;
+}
+
+.portfolio{
+    width: 100%;
+    display: flex;
+    flex-direction: column-reverse;
     gap: 0.5rem;
 }
 
@@ -61,6 +87,7 @@
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    height: fit-content;
     gap: 1rem;
 }
 
@@ -246,15 +273,42 @@
   /* tablet breakpoint */
 @media (min-width: 660px) {
     .project-tile{
-        width: 200px;
-        height: 200px;
+        width: 150px;
+        height: 150px;
     }
 
-    .tile-title{
-        font-size: 2rem;
+    .portfolio{
+        flex-direction: row;
     }
 
-    .portfolio-title h2{
-        font-size: 3rem;
+    .display-div{
+        width: 55%;
+        height: fit-content;
+        background-color: var(--variable-collection-main-gray);
+        border-radius: 0.5rem;
+        padding: 1rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 0.5rem;
+        /* border: 2px solid var(--main-orange); */
     }
+    
+    .portfolio-div{
+        width: 55%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        height: fit-content;
+        gap: 1rem;
+    }
+
+}
+@media (min-width: 100px) {
+.project-tile{
+    width: 170px;
+    height: 170px;
+}
 }

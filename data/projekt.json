@@ -2,82 +2,97 @@
     {
         "title": "TaskMaster",
         "image": "./images/taskmaster.png",
-        "description": "Task Master är en funktionsrik uppgiftshanteringsapplikation byggd med React. Detta är mitt första stora React-projekt, som implementerar useState, useEffect, useContext och Browser Router för att utveckla ett sömlöst SPA. Användaren kan skapa sin egna Kanban-tavla och anpassa teman, bakgrundsbilder (genom Unsplash API), sortera och redigera uppgifter - alla ändringar sparas dynamiskt i localStorage.",
+        "description": "Task Master är en funktionsspäckad uppgiftshanteringstillämpning byggd med React. Det är mitt första stora React-projekt som implementerar useState, useEffect, useContext och Browser Router för att utveckla en sömlös SPA. Användaren kan skapa sin egen Kanban-tavla och anpassa teman, bakgrundsbilder (genom Unsplash API), sortera och redigera uppgifter - och alla ändringar sparas dynamiskt i localStorage.",
+        "details": "Genom att bygga Task Master fick jag insikter i att strukturera storskaliga React-projekt och implementera nyckelfunktioner som uppgiftssortering, redigering och dynamisk datahantering med localStorage. Det här projektet hjälpte mig att förstå vikten av hooks som useState, useEffect, useContext och Browser Router för att hantera tillstånd, hantera sidoeffekter och navigera i en single-page application (SPA). Sammantaget gav Task Master en solid grund i React-utveckling och utrustade mig med praktiska färdigheter som är tillämpliga på framtida projekt.",
         "link": "https://task-master-evesteve.netlify.app/",
         "modalTitle": "Task Master",
         "gitHubLink": "https://github.com/evesteve94/taskmaster-kanban",
-        "alt": "Orange Task Master Logo"
-    }, 
+        "alt": "Orange Task Master Logo",
+        "course": "React",
+        "tech" : "React, JavaScript, HTML, CSS"
+    },
     {
         "title": "Dashboard",
         "image": "./images/dashboard.png",
-        "description": "En uppgift för min Advanced Frontend Dev-kurs, kodad 100% vanilla. Väderprognoser uppdateras i realtid från OpenWeatherAPI, layouten kan redigeras av användaren med anpassade bakgrunder hämtade från ett Unplash API. Titeln, snabblänkarna och anteckningsblockets innehåll är interaktiva och sparas i webbläsarens localStorage.",
+        "description": "En uppgift för min kurs i Avancerad Frontend-utveckling, kodad 100% vanilla. Väderprognoser uppdateras i realtid från OpenWeatherAPI, layouten kan anpassas av användaren med anpassade bakgrunder hämtade från Unsplash API. Titeln, snabblänkarna och anteckningsinnehållet är interaktiva och sparas i webbläsarens localStorage.",
+        "details": "Gränssnittet är rent och användarvänligt och erbjuder grundläggande funktioner som tidsbevarande, anteckningstagning och åtkomst till frekvent besökta webbplatser. Med fullständiga skript för varje funktion erbjuder dashboarden en omfattande och anpassningsbar upplevelse för användare att förbättra sin produktivitet och njutning av dagliga uppgifter.",
         "link": "https://dashboard-evesteve-open-access.netlify.app/",
         "modalTitle": "Dashboard",
         "gitHubLink": "https://github.com/evesteve94/dashboard-open-access",
-        "alt": "Orange Dashboard Logo"
+        "alt": "Orange Dashboard Logo",
+        "course": "Avancerad Frontend Development",
+        "tech" : "JavaScript, HTML, CSS"
     },     
     {
-        "title": "Bolån",
+        "title": "Loan Crunch",
         "image": "./images/house.png",
-        "description": "Litet projekt kodat 100 % vanilla TypeScript. Användaren kan beräkna sitt bolån genom att ange lånebelopp, ränta och låneperiod och sedan se en betalningsplan månad för månad.",
+        "description": "Litet projekt kodat 100% vanilla TypeScript. Användaren kan beräkna sitt bolån genom att ange lånebelopp, ränta och låneperiod och sedan visa en betalningsplan månad för månad.",
+        "details": "Den här applikationen är en enkel lånekalkylator som gör att användare kan ange lånebelopp, ränta och låneperiod för att uppskatta månatliga betalningar och total ränta. Den validerar inmatningsvärden och ger en detaljerad betalningsplan som visar månadsbetalningsbelopp, betald ränta och återstående saldo under låneperioden. Om inmatningsvärdena överstiger realistiska tröskelvärden visas varningar.",
         "link": "https://morgage-calculator-evesteve.netlify.app/",
-        "modalTitle": "Bolån",
+        "modalTitle": "Loan Crunch",
         "gitHubLink": "https://github.com/evesteve94/morgage-calculator",
-        "alt": "Orange House Logo"
+        "alt": "Orange House Logo",
+        "course": "TypeScript Intro",
+        "tech" : "TypeScript, HTML, CSS"
     },
     {
         "title": "Quire",
         "image": "./images/quire.png",
-        "description": "Som en del av en kurs i Agila arbetsmetoder utvecklade jag och mitt team en textredigerare online. Jag var ansvarig för det mesta av funktionaliteten, särskilt funktionen dynamicSave() och uppdateringen av de sparade anteckningarna till localStorage. Genom detta projekt lärde jag mig att arbeta på distans med en grupp, slå samman och lösa konflikter i git och GitHub, och utveckla större program med TypeScript, allt i vanilla!",
+        "description": "Som en del av en kurs i Agile Working Methods utvecklade mitt team och jag en online-textredigerare. Jag var ansvarig för större delen av funktionaliteten, särskilt funktionen dynamicSave() och uppdateringen av sparade anteckningar till localStorage. Genom det här projektet lärde jag mig att arbeta på distans med en grupp, sammanfoga och lösa konflikter i git och GitHub, och utveckla större program med TypeScript, allt i vanilla!",
+        "details" : "Med ett användarvänligt gränssnitt erbjuder det ett utbud av funktioner, inklusive en navigeringsfält för snabb åtkomst till väsentliga funktioner som anteckningssökning, visning av alla anteckningar, åtkomst till favoriter och analys. Huvudutmatningsbehållaren visar dynamiskt anteckningar baserat på användarinteraktioner, medan den flytande kontrollmenyn ger bekväma knappar för att skapa nya anteckningar, skriva ut och markera som favoriter. Användare kan skapa anteckningar med titlar och textområden, spara eller ta bort dem efter behov och använda sökfunktionen för att hitta specifika anteckningar. Quire integrerar också Google Analytics för att spåra webbplatsanvändning. ",
         "link": "https://quireteammalmo.netlify.app/",
         "modalTitle": "Quire",
         "gitHubLink": "https://github.com/carstern/quireproject",
-        "alt": "Orange Notebook Logo"
+        "alt": "Orange Notebook Logo",
+        "course": "Avancerad Frontend Development",
+        "tech" : "TypeScript, HTML, CSS"
     },    
     {
         "title": "Memory",
         "image": "./images/brain.png",
-        "description": "Detta är ett projekt för Code Jam for Chas Academys Fullstack Java Extended-klass av '23. Spelet är utvecklat i 100 % html, css och js vanilla och har fyra olika svårighetslägen. Det är superdumt. Kolla in det!",
+        "description": "Detta är ett projekt för Code Jam för Chas Academys Fullstack Java Extended-klass '23. Spelet är utvecklat i 100% html, css och js vanilla och har fyra olika svårighetsnivåer. Det är superdumt. Kolla in det!",
+        "details": "Den har en dynamiskt layout av kort med dolda symboler som spelarna måste matcha genom att välja par. Spelet spårar antalet försök som gjorts och utmanar spelarna att slutföra spelet med så få försök som möjligt. Det inkluderar återkopplingsmeddelanden som indikerar om de valda korten matchar eller inte. En omstartsknapp låter spelarna återställa spelet och prova olika strategier. Med ett engagerande gränssnitt och slumpmässiga kortlayouter kan spelare njuta av en underhållande och stimulerande upplevelse samtidigt som de slipar sina minne och koncentration. ",
         "link": "https://emojory-evesteve.netlify.app/",
         "modalTitle": "Memory",
         "gitHubLink": "https://github.com/evesteve94/Memory-Expanded.git",
-        "alt": "Orange Brain Logo"
+        "alt": "Orange Brain Logo",
+        "course": "Webbutveckling",
+        "tech" : "JavaScript, HTML, CSS"
     }, 
     {
-        "title": "CV",
+        "title": "Old CV",
         "image": "./images/cv.png",
-        "description": "Detta är mitt gamla CV som jag utvecklade till 100% i vanilla JS. Den du läser just nu är ett exempel på hur mycket jag har lärt mig på bara två korta månader. Klicka på länken och jämför!",
+        "description": "Detta är mitt gamla CV som jag utvecklade 100% i vanilla JS. Det du läser nu är ett exempel på hur mycket jag har lärt mig på bara två korta månader. Klicka på länken och jämför!",
+        "details": "Dess funktioner inkluderar en responsiv design optimerad för olika enheter, enkel navigering med rullgardinsmeny och traditionella navigeringslänkar, en profilsektion som introducerar mig själv, en projektsektion som visar mitt arbete med interaktiva modalpopuppar som ger projektdetaljer, och länkar till sociala medier i sidfoten för ytterligare engagemang. ",
         "link": "https://evabjorling-cv.netlify.app/",
         "modalTitle": "Old CV",
         "gitHubLink": "https://github.com/evesteve94/evesteve_cv",
-        "alt": "Orange Briefcase Logo"
+        "alt": "Orange Briefcase Logo",
+        "course": "Webbutveckling",
+        "tech" : "JavaScript, HTML, CSS"
     },
     {
-        "title": "Litet Spel",
-        "image": "./images/rock.png",
-        "description": "Detta är ytterligare ett projekt från våra Code Jam-sessioner. Ett enkelt sten-, papper-, saxspel kodat till 100 % i vanilla html, css och javascript!",
-        "link": "https://rock-paper-scissors-evesteve.netlify.app/",
-        "modalTitle": "Rock, Paper, Scissors",
-        "gitHubLink": "https://github.com/evesteve94/rock-paper-scissors.git",
-        "alt": "Orange Fist Logo"
-    },
-    {
-        "title": "To Do Lista",
+        "title": "To Do List",
         "image": "./images/todo.png",
-        "description": "Detta är min allra första app kodad i React! Det är en enkel att göra-lista som består av ett fåtal komponenter som använder localStorage och useState. Funktioner inkluderar: lägga till, sök, bocka av och ta bort.",
+        "description": "Detta är min allra första app kodad i React! Det är en enkel att göra-lista som består av några komponenter som använder localStorage och useState. Funktioner inkluderar: lägg till, sök, markera av och ta bort.",
+        "details": "Det här projektet var en utmärkt introduktion till Reacts sätt att tänka, med fokus på att bygga återanvändbara komponenter och utforma användarvänliga gränssnitt för single-page applications. Det gav värdefulla praktiska erfarenheter med Reacts ekosystem och lärde mig hur man strukturerar applikationer annorlunda och betonade vikten av modulär, underhållbar kod. Sammantaget var det en praktisk resa in i React-utveckling, som erbjöd insikter som direkt kan tillämpas på verkliga projekt och hjälpte mig att förstå kärnkoncepten bakom Reacts tillvägagångssätt för att bygga moderna webbapplikationer. ",
         "link": "https://todo-list-evesteve.netlify.app/",
-        "modalTitle": "To Do Lista",
+        "modalTitle": "To Do List",
         "gitHubLink": "https://github.com/evesteve94/todo-list",
-        "alt": "Orange Checked Logo"
+        "alt": "Orange Checked Logo",
+        "course": "React",
+        "tech" : "React, JavaScript, HTML, CSS"
     },
     {
         "title": "Mermaid",
         "image": "./images/club.png",
-        "description": "Detta är ett sidoprojekt för min favorit lokala dragklubb. Den är baserad på deras egna hemsida, men förbättrad med mer detaljerad information, bilder och responsivitet. Jämför med originalet: https://clubmermaid.se/",
+        "description": "Det här är ett sidoprojekt för min favoritlokal dragklubb. Den är baserad på deras egna webbplats, men förbättrad med mer utförlig information, bilder och responsivitet. Jämför med originalet: https://clubmermaid.se/",
+        "details" :"Det här projektet för min lokala dragklubb förbättrade mina frontend-färdigheter genom att replikera deras webbplats med dynamiskt innehåll som laddas från JSON-filer. Genom att implementera modaler för information om artister förbättrades användarupplevelsen, medan hanteringen av händelser fördjupade min förståelse för DOM-manipulering. Principer för responsiv design säkerställde webbplatsens användbarhet över olika enheter. Lärdomar inkluderar effektiv datahantering, interaktivitet och optimering för olika skärmstorlekar, vilket bidrar till en mer engagerande webbplats för Club Mermaid och slipar mina färdigheter som utvecklare.",
         "link": "https://club-mermaid-evesteve.netlify.app/",
         "modalTitle": "Club Mermaid",
         "gitHubLink": "https://github.com/evesteve94/club-mermaid-project.git",
-        "alt": "Orange Mermaid Logo"
+        "alt": "Orange Mermaid Logo",
+        "course": "Sidoprojekt",
+        "tech" : "JavaScript, HTML, CSS"
     }
 ]
