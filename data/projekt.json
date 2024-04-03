@@ -1,5 +1,14 @@
 [
     {
+        "title": "TaskMaster",
+        "image": "./images/taskmaster.png",
+        "description": "Task Master är en funktionsrik uppgiftshanteringsapplikation byggd med React. Detta är mitt första stora React-projekt, som implementerar useState, useEffect, useContext och Browser Router för att utveckla ett sömlöst SPA. Användaren kan skapa sin egna Kanban-tavla och anpassa teman, bakgrundsbilder (genom Unsplash API), sortera och redigera uppgifter - alla ändringar sparas dynamiskt i localStorage.",
+        "link": "https://task-master-evesteve.netlify.app/",
+        "modalTitle": "Task Master",
+        "gitHubLink": "https://github.com/evesteve94/taskmaster-kanban",
+        "alt": "Orange Task Master Logo"
+    }, 
+    {
         "title": "Dashboard",
         "image": "./images/dashboard.png",
         "description": "En uppgift för min Advanced Frontend Dev-kurs, kodad 100% vanilla. Väderprognoser uppdateras i realtid från OpenWeatherAPI, layouten kan redigeras av användaren med anpassade bakgrunder hämtade från ett Unplash API. Titeln, snabblänkarna och anteckningsblockets innehåll är interaktiva och sparas i webbläsarens localStorage.",
