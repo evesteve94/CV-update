@@ -50,6 +50,10 @@
     /* border: 2px solid var(--main-orange); */
 }
 
+.display-div p {
+    line-height: 1.5;
+}
+
 .display-img{
     width: 40%;
 }
