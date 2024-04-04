@@ -20,34 +20,31 @@
             </div>
 
             <nav>
-            <!-- nav -->
-            <nav class="nav">
-                <ul>
-                    <li><a class="link-home" href="index.html">HOME</a></li>
-                    <li><a class="link-about" href="resume.html">RESUMÉ</a></li>
-                    <li><a class="link-contact" href="projects.html">PORTFOLIO</a></li>
-                </ul>
-            </nav>
+                <nav class="nav">
+                    <ul>
+                        <li><a class="link-home" href="index.html">HOME</a></li>
+                        <li><a class="link-about" href="resume.html">RESUMÉ</a></li>
+                        <li><a class="link-contact" href="projects.html">PORTFOLIO</a></li>
+                    </ul>
+                </nav>
             </nav>            
             <div class="language">
                 <img class="eng" src="./images/eng.png" alt="english text version">
                 <img class="swe" src="./images/swe.png" alt="swedish text version">
             </div>
-                                    <!-- dropdown -->
             <div class="dropdown">
                 <a class="dropbtn" id="dropdownButton"><img loading="lazy" class="menu-icon" src="./images/menu.png" alt=""></a>
                 <div class="dropdown-content" id="dropdownContent">
-                <a id="home" href="index.html">HOME</a>
-                <a id="about" href="resume.html">RESUMÉ</a>
-                <a id="portfolio" href="projects.html">PORTFOLIO</a>
+                    <a id="home" href="index.html">HOME</a>
+                    <a id="about" href="resume.html">RESUMÉ</a>
+                    <a id="portfolio" href="projects.html">PORTFOLIO</a>
                 </div>
             </div>
-    </div>
+        </div>
     </header>
     <div class="video-container">
         <video autoplay loop muted>
             <source src="./images/background.mp4" type="video/mp4">
-            <!-- Add additional source elements for other video formats if needed -->
             Your browser does not support the video tag.
         </video>
     </div>
@@ -56,14 +53,19 @@
                 <h2>eve<span id="blink">|</span>steve portfolio</h2>
             </div>
         <section class="section portfolio">
-
-
             <div class="display-div" id="display-div">
-                <h2>Click on a project!</h2>
+                <h2 id="header-text-eng">Welcome to my portfolio!</h2>
+                <h2 id="header-text-swe">Välkommen till min portfolio!</h2>
+                <img src="./images/cv.png" alt="briefcase logo">
+                <p id="intro-text-eng">
+                    Feel free to click on any project to read more about it! Each project is equiped with links to the deployed website and the github repository.
+                </p>
+                <p id="intro-text-swe">
+                    Klicka gärna på vilket projekt som helst för att läsa mer om det! Varje projekt är utrustat med länkar till webbplatsen och github-repot.
+                </p>
             </div>
             <div class="portfolio-div" id="portfolioDiv">
             </div>
-            
         </section>
     </div>
     <footer>
@@ -79,12 +81,8 @@
             <p>&copy;evesteve</p>
         </div>
     </footer>
-    <!-- <script src="./script/language.js"></script> -->
     <script src="./script/dropdown.js"></script>
     <script src="./script/portfolio-lang.js"></script>
     <script src="./script/portfolio.js"></script>
-    <!-- <script src="./script/projects.js"></script> -->
-    <!-- <script src="./script/modal.js"></script> -->
-    <!-- <script src="./script/skill-modals.js"></script> -->
 </body>
 </html>

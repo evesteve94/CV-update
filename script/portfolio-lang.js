@@ -1,43 +1,50 @@
 document.addEventListener("DOMContentLoaded", function() {
-const isEnglish = localStorage.getItem('isEnglish') === 'true';
-const engImg = document.querySelector('.eng');
-const sweImg = document.querySelector('.swe');
+    const isEnglish = localStorage.getItem('isEnglish') === 'true';
+    const engImg = document.querySelector('.eng');
+    const sweImg = document.querySelector('.swe');
+    const introTextEng = document.getElementById('intro-text-eng');
+    const introTextSwe = document.getElementById('intro-text-swe');
+    const headerTextEng = document.getElementById('header-text-eng');
+    const headerTextSwe = document.getElementById('header-text-swe');
 
-if (isEnglish) {
-    engImg.style.width = '50px'; // Change width to 50px
-    sweImg.style.width = '30px'; // Reset width to 30px
-} else {
-    sweImg.style.width = '50px'; // Change width to 50px
-    engImg.style.width = '30px'; // Reset width to 30px
-}
+    if (isEnglish) {
+        engImg.style.width = '50px'; // Ändra bredden till 50px
+        sweImg.style.width = '30px'; // Återställ bredden till 30px
+        introTextEng.style.display = 'block';
+        introTextSwe.style.display = 'none';
+        headerTextEng.style.display = 'block';
+        headerTextSwe.style.display = 'none';
+    } else {
+        sweImg.style.width = '50px'; // Ändra bredden till 50px
+        engImg.style.width = '30px'; // Återställ bredden till 30px
+        introTextEng.style.display = 'none';
+        introTextSwe.style.display = 'block';
+        headerTextEng.style.display = 'none';
+        headerTextSwe.style.display = 'block';
+    }
 
-    // Check if localStorage is supported
+    // Kontrollera om localStorage stöds
     if (typeof(Storage) !== "undefined") {
-        // Check if 'isEnglish' is already set in localStorage
+        // Kontrollera om 'isEnglish' redan är inställt i localStorage
         if (localStorage.getItem('isEnglish') === null) {
-            // Set 'isEnglish' to true if it's not set
+            // Ange 'isEnglish' till true om det inte är inställt
             localStorage.setItem('isEnglish', 'true');
         }
         
-        // Initial toggle based on isEnglish value
-        // toggleLanguageVisibility();
-        
-        // Add click event listeners to the language images to toggle language
+        // Lägg till klickhändelselyssnare för språkbilderna för att byta språk
         const engImg = document.querySelector('.eng');
         const sweImg = document.querySelector('.swe');
         
         engImg.addEventListener('click', function() {
             localStorage.setItem('isEnglish', 'true');
-            // toggleLanguageVisibility();
             location.reload();
         });
         
         sweImg.addEventListener('click', function() {
             localStorage.setItem('isEnglish', 'false');
-            // toggleLanguageVisibility();
             location.reload();
         });
     } else {
-        console.log("Sorry, your browser does not support Web Storage...");
+        console.log("Tyvärr stöder din webbläsare inte Web Storage...");
     }
 });
