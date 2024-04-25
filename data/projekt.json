@@ -22,7 +22,19 @@
         "alt": "Orange Dashboard Logo",
         "course": "Avancerad Frontend Development",
         "tech" : "JavaScript, HTML, CSS"
-    },     
+    },
+    {
+        "title": "TicTacToe",
+        "image": "./images/tictactoe.png",
+        "description": "En uppgift för min React-kurs, kodad i React och TypeScript för att lära mig hur man typar props, states och funktioner när de passeras genom komponenter. Användaren kan välja mellan tre olika brädor och justera längden på den vinnande kombinationen innan spelet startas.",
+        "details": "Tic Tac Toe är en enkel webbapplikation som låter användare spela det klassiska Tic Tac Toe-spelet. Det är byggt med hjälp av React.js, ett populärt JavaScript-bibliotek för att bygga användargränssnitt. Automatisk vinstdetektering: Appen känner automatiskt av när en spelare har vunnit spelet eller om det är oavgjort. Starta om spelet: Spelare kan starta om spelet när som helst för att spela igen.",
+        "link": "https://tic-tac-toe-evesteve.netlify.app/",
+        "modalTitle": "Tic Tac Toe",
+        "gitHubLink": "https://github.com/evesteve94/tic-tac-toe?tab=readme-ov-file",
+        "alt": "Orange Tic Tac Toe Logo",
+        "course": "React",
+        "tech" : "React, TypeScript, HTML, CSS"
+    },       
     {
         "title": "Loan Crunch",
         "image": "./images/house.png",

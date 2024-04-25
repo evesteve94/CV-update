@@ -24,6 +24,18 @@
         "tech" : "JavaScript, HTML, CSS"
     },     
     {
+        "title": "TicTacToe",
+        "image": "./images/tictactoe.png",
+        "description": "An assignment for my React course, coded in React and TypeScript to learn how to type props, states and functions when passed through components. The User can choose between three different boards and adjust the length of the winning combonation before starting the game.",
+        "details": "Tic Tac Toe is a simple web application that allows users to play the classic Tic Tac Toe game. It's built using React.js, a popular JavaScript library for building user interfaces. Automatic Win Detection: The app automatically detects when a player has won the game or if it's a draw. Restart Game: Players can restart the game at any time to play again.",
+        "link": "https://tic-tac-toe-evesteve.netlify.app/",
+        "modalTitle": "Tic Tac Toe",
+        "gitHubLink": "https://github.com/evesteve94/tic-tac-toe?tab=readme-ov-file",
+        "alt": "Orange Tic Tac Toe Logo",
+        "course": "React",
+        "tech" : "React, TypeScript, HTML, CSS"
+    },   
+    {
         "title": "Loan Crunch",
         "image": "./images/house.png",
         "description": "Small project coded 100% vanilla TypeScript. The user can calculate their morgage by entering loan amount, interest rate and loan period and then view a payment plan month-by-month.",
