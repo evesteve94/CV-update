@@ -27,7 +27,7 @@
       "title": "React",
       "image": "./images/react.png",
       "alt": "Orange React Logo",
-      "skill": "Novice",
+      "skill": "Intermediate",
       "course": "React",
       "description": "I have started to understand React more and more. It gives me a new way of thinking about frontend development and I like the possibilities it gives through its component-based structure to reuse code! Looking forward to honing my skills further!"
   },
@@ -67,9 +67,9 @@
       "title": "Node.js",
       "image": "./images/node.png",
       "alt": "Orange Node.js Logo",
-      "skill": "Novice",
+      "skill": "Intermediate",
       "course": "Advanced Backend Development",
-      "description": "Will start this course soon!"
+      "description": "Just started the dive into backend development, and loving it!"
   },
   {
       "title": "Figma",
@@ -147,9 +147,9 @@
       "title": "Express.js",
       "image": "./images/express.png",
       "alt": "Orange Express.js Logo",
-      "skill": "Novice",
+      "skill": "Intermediate",
       "course": "Advanced Backend Development",
-      "description": "Will start this course soon!"
+      "description": "Just started the dive into backend development, and loving it!"
   },
   {
       "title": "Mongo db",
@@ -179,8 +179,8 @@
       "title": "Redux",
       "image": "./images/redux.png",
       "alt": "Orange Redux Logo",
-      "skill": "Novice",
+      "skill": "Intermediate",
       "course": "React",
-      "description": "Will start this course soon!"
+      "description": "Though it was quite a headache understanding Redux, I am happy to say that I have a much larger understanding of it now. Especially how it takes all the best parts of useContext to create global variables and props. Once you understand it, it will save loads of time with prop-drilling."
   }
 ]

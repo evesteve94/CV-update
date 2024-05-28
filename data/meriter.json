@@ -67,9 +67,9 @@
         "title": "Node.js",
         "image": "./images/node.png",
         "alt": "Orange Node.js Logo",
-        "skill": "Nybörjare",
+        "skill": "Mellanliggande",
         "course": "Avancerad Backend Development",
-        "description": "Denna kurs startar snart!"
+        "description": "Har just börjat dyka ner i backend världen,och jag älskar det!"
     },
     {
         "title": "Figma",
@@ -149,7 +149,7 @@
         "alt": "Orange Express.js Logo",
         "skill": "Nybörjare",
         "course": "Advanced Backend Development",
-        "description": "Denna kurs startar snart!"
+        "description": "Har just börjat dyka ner i backend världen,och jag älskar det!"
     },
     {
         "title": "Mongo db",
@@ -179,9 +179,9 @@
         "title": "Redux",
         "image": "./images/redux.png",
         "alt": "Orange Redux Logo",
-        "skill": "Nybörjare",
+        "skill": "Mellanliggande",
         "course": "React",
-        "description": "Denna kurs startar snart!"
+        "description": "Även om det var ganska jobbigt att förstå Redux, är jag glad att kunna säga att jag har en mycket större förståelse för det nu. Speciellt hur det krävs alla de bästa delarna av useContext för att skapa globala variabler och props. Jag har förstått att när du väl förstår Redux kommer det att spara massor av tid med prop-drilling."
     }
   ]
   

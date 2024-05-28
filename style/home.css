@@ -262,6 +262,7 @@ p{
     height: 100%;
     background-color: rgba(0, 0, 0, 0.816);
     z-index: 100; 
+    /* padding: 1rem; */
 }
 
 .modal-content {
@@ -270,7 +271,7 @@ p{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 80%;
+    width: 95%;
     max-width: 500px;
     border: 2px solid var(--main-orange);
     border-radius: 0.5rem;
@@ -368,7 +369,7 @@ p{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 70%;
+    width: 95%;
     max-width: 400px;
     border-radius: 0.5rem;
     padding: 1rem;
@@ -377,6 +378,10 @@ p{
     font-size: 1rem;
     padding-bottom: 3rem;
     border: 2px solid var(--main-orange);
+}
+
+.tile-modal-content img {
+    max-height: 6rem;
 }
 
 .tile-modal-content h4 {
