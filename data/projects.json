@@ -1,5 +1,17 @@
 [
     {
+        "title": "Wedding Site",
+        "image": "./images/jellyfish.png",
+        "description": "This website is by far my favourite side project to date. It is a wedding gift for my brother, implementing his to-be-wife's illustrations. It is my biggest React project, with pleanty of custom-made components and seemless dropdown menus. Additionally, I have implemented login, authenication and a database through Firebase db. Users can log in, write, edit and delete messages in the guest book and view pictures from the wedding. ",
+        "details":"This is my pride and joy! It was a fantastic experince to create the entire site from scratch and using all the skills I have learned during my first term at Chas Academy. For the first time I created a real fullstack project, though frontend-heavy, it uses CRUD-operations to communicate with the database and doesn't only rely on LocalStorage. Additionally, I used a group of friends as a test group for feedback before launching it to the weddings 160 guests.",
+        "link": "https://viktor-emma-08juni2024.netlify.app/",
+        "modalTitle": "Wedding Site",
+        "gitHubLink": "https://github.com/evesteve94/wedding",
+        "alt": "Orange Jellyfish Logo",
+        "course": "Side Project",
+        "tech" : "React, JavaScript, Firebase DB, HTML, CSS"
+    }, 
+    {
         "title": "TaskMaster",
         "image": "./images/taskmaster.png",
         "description": "Task Master is a feature-rich task management application built with React. It is my first large React-project, implementing useState, useEffect, useContext and Browser Router to develope a seemless SPA. The user can create their own Kanban board and customize themes, background images (through Unsplash API), sort and edit tasks - saving all changes dynamically in localStorage.",

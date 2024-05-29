@@ -66,7 +66,7 @@ function displayProjectContent(project) {
     displayDiv.innerHTML = `<h2>${project.title}</h2>
     <img alt="${project.alt}" class="display-img" src="${project.image}">
     <h3>Course: ${project.course}</h3>
-    <h3>Languages: ${project.tech}</h3>
+    <h3>Tech: ${project.tech}</h3>
     <p class="display-description">${project.description}</p>
     <p class="display-description">${project.details}</p>
     <a href="${project.link}" target="_blank" class="inside-card-btn">TAKE ME THERE!</a>

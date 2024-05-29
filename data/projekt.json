@@ -1,5 +1,17 @@
 [
     {
+        "title": "Bröllopssida",
+        "image": "./images/jellyfish.png",
+        "description": "Den här webbplatsen är överlägset mitt favorit sidoprojekt hittills. Det är en bröllopspresent till min bror som implementerar hans blivande frus illustrationer. Det är mitt största React-projekt, med massor av skräddarsydda komponenter och sömlösa dropdown-menyer Dessutom har jag implementerat inloggning, autentisering och en databas genom Firebase db. Användare kan logga in, skriva, redigera och ta bort meddelanden i gästboken och se bilder från bröllopet. ",
+        "details":"Jag är väldigt stolt! Det var en fantastisk upplevelse att skapa hela sajten från grunden och använda alla de färdigheter jag har lärt mig under min första termin på Chas Academy. För första gången skapade jag ett riktigt fullstack-projekt, trots att den är frontend-tung, använder den CRUD-operationer för att kommunicera med databasen och förlitar sig inte bara på LocalStorage. Dessutom använde jag en grupp vänner som en testgrupp för feedback innan jag lanserade den till bröllopets 160 gäster.",
+        "link": "https://viktor-emma-08juni2024.netlify.app/",
+        "modalTitle": "Wedding Site",
+        "gitHubLink": "https://github.com/evesteve94/wedding",
+        "alt": "Orange Jellyfish Logo",
+        "course": "Bröllopssida",
+        "tech" : "React, JavaScript, Firebase DB, HTML, CSS"
+    }, 
+    {
         "title": "TaskMaster",
         "image": "./images/taskmaster.png",
         "description": "Task Master är en funktionsspäckad uppgiftshanteringstillämpning byggd med React. Det är mitt första stora React-projekt som implementerar useState, useEffect, useContext och Browser Router för att utveckla en sömlös SPA. Användaren kan skapa sin egen Kanban-tavla och anpassa teman, bakgrundsbilder (genom Unsplash API), sortera och redigera uppgifter - och alla ändringar sparas dynamiskt i localStorage.",
