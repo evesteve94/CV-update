@@ -58,6 +58,10 @@ function createProjectTile(project, index) {
 }
 
 function displayProjectContent(project) {
+    window.scrollTo({
+        top: 0,
+        behavior: 'smooth' // This makes the scrolling smooth
+    });
     const displayDiv = document.getElementById('display-div');
     displayDiv.innerHTML = `<h2>${project.title}</h2>
     <img alt="${project.alt}" class="display-img" src="${project.image}">
