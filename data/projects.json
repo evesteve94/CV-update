@@ -9,7 +9,8 @@
         "gitHubLink": "https://github.com/evesteve94/wedding",
         "alt": "Orange Jellyfish Logo",
         "course": "Side Project",
-        "tech" : "React, JavaScript, Firebase DB, HTML, CSS"
+        "tech" : "React, JavaScript, Firebase DB, HTML, CSS",
+        "date" : "May 2024"
     }, 
     {
         "title": "TaskMaster",
@@ -21,7 +22,8 @@
         "gitHubLink": "https://github.com/evesteve94/taskmaster-kanban",
         "alt": "Orange Task Master Logo",
         "course": "React",
-        "tech" : "React, JavaScript, HTML, CSS"
+        "tech" : "React, JavaScript, HTML, CSS",
+        "date" : "April 2024"
     }, 
     {
         "title": "Dashboard",
@@ -33,7 +35,8 @@
         "gitHubLink": "https://github.com/evesteve94/dashboard-open-access",
         "alt": "Orange Dashboard Logo",
         "course": "Advanced Frontend Development",
-        "tech" : "JavaScript, HTML, CSS"
+        "tech" : "JavaScript, HTML, CSS",
+        "date" : "December 2023"
     },     
     {
         "title": "TicTacToe",
@@ -45,7 +48,8 @@
         "gitHubLink": "https://github.com/evesteve94/tic-tac-toe?tab=readme-ov-file",
         "alt": "Orange Tic Tac Toe Logo",
         "course": "React",
-        "tech" : "React, TypeScript, HTML, CSS"
+        "tech" : "React, TypeScript, HTML, CSS",
+        "date" : "April 2024"
     },   
     {
         "title": "Loan Crunch",
@@ -57,7 +61,8 @@
         "gitHubLink": "https://github.com/evesteve94/morgage-calculator",
         "alt": "Orange House Logo",
         "course": "TypeScript Intro",
-        "tech" : "TypeScript, HTML, CSS"
+        "tech" : "TypeScript, HTML, CSS",
+        "date" : "January 2024"
     },
     {
         "title": "Quire",
@@ -69,7 +74,8 @@
         "gitHubLink": "https://github.com/carstern/quireproject",
         "alt": "Orange Notebook Logo",
         "course": "Advanced Frontend Development",
-        "tech" : "TypeScript, HTML, CSS"
+        "tech" : "TypeScript, HTML, CSS",
+        "date" : "February 2024"
     },    
     {
         "title": "Memory",
@@ -81,7 +87,8 @@
         "gitHubLink": "https://github.com/evesteve94/Memory-Expanded.git",
         "alt": "Orange Brain Logo",
         "course": "Web development",
-        "tech" : "JavaScript, HTML, CSS"
+        "tech" : "JavaScript, HTML, CSS",
+        "date" : "October 2023"
     }, 
     {
         "title": "Old CV",
@@ -93,7 +100,8 @@
         "gitHubLink": "https://github.com/evesteve94/evesteve_cv",
         "alt": "Orange Briefcase Logo",
         "course": "Web development",
-        "tech" : "JavaScript, HTML, CSS"
+        "tech" : "JavaScript, HTML, CSS",
+        "date" : "October 2023"
     },
     {
         "title": "To Do List",
@@ -105,7 +113,8 @@
         "gitHubLink": "https://github.com/evesteve94/todo-list",
         "alt": "Orange Checked Logo",
         "course": "React",
-        "tech" : "React, JavaScript, HTML, CSS"
+        "tech" : "React, JavaScript, HTML, CSS",
+        "date" : "March 2024"
     },
     {
         "title": "Mermaid",
@@ -117,6 +126,7 @@
         "gitHubLink": "https://github.com/evesteve94/club-mermaid-project.git",
         "alt": "Orange Mermaid Logo",
         "course": "Side Project",
-        "tech" : "JavaScript, HTML, CSS"
+        "tech" : "JavaScript, HTML, CSS",
+        "date" : "October 2023"
     }
 ]
