@@ -1,5 +1,18 @@
 [
   {
+    "title": "King Pizza-rd and the Lizard Wizard",
+    "image": "./images/pizza.png",
+    "description": "Detta projekt är en magisk och interaktiv webbplats för pizzerian King Pizzard och Lizzard Wizzard. Webbplatsen är byggd med Vue 3 och använder Vite som byggverktyg. Här kan användare läsa den fantasifulla berättelsen om Pizzard, en pizzatillverkande trollkarl, och utforska pizzerians magiska meny.",
+    "details": "Webbplatsen erbjuder en dynamisk meny som hämtas från ett externt API, samt en interaktiv kundvagn där användare kan lägga till och ta bort pizzor. All information om kundvagnen sparas lokalt i webbläsarens localStorage för att säkerställa att innehållet bevaras även vid siduppdatering.Projektet kombinerar kreativt berättande med funktionell webbapplikation och ger en engagerande upplevelse för användaren.",
+    "link": "https://github.com/evesteve94/PizzaSite",
+    "modalTitle": "King Pizza-rd and the Lizard Wizard",
+    "gitHubLink": "https://github.com/evesteve94/PizzaSite",
+    "alt": "Pizza Logo",
+    "course": "Vue",
+    "tech": "Vue, Vite, JavaScript, HTML, CSS",
+    "date": "Dec 2024"
+  },
+  {
     "title": "The Journalists Guide to Inaccuracy",
     "image": "./images/journalist.png",
     "description": "The Journalist's Guide To Inaccuracy är en rolig och interaktiv webbsida där kreativitet och humor står i fokus. Plattformen använder AI för att skapa kvicka och absurda artiklar som berättas av ikoniska karaktärer som Marvin the Paranoid Android, Arthur Dent och Zaphod Beeblebrox. Användare kan anpassa upplevelsen genom att välja ämnen, målgrupper och berättare, samtidigt som de får ta del av anpassade AI-genererade bilder. Det är en lekfull utforskning av berättande där sanningen sätts på paus och fantasin styr. Webbappen är byggd med moderna teknologier som React, TypeScript och Node.js för en smidig användarupplevelse. ",
