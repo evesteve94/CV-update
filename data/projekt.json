@@ -1,7 +1,7 @@
 [
   {
     "title": "Rent-A-Rat",
-    "image": "./images/rent-a-rat-vector.svg",
+    "image": "./images/rat.png",
     "description": "Rent-a-Rat är en Vue.js-applikation för att hyra och hyra ut råttor och deras tjänster, med en dynamisk användarupplevelse. Den har två huvudlayouter—Rentee och Renter—som låter användare bläddra, boka och hantera råttuthyrningar. ",
     "details": " Funktioner inkluderar autentisering, användarprofiler, råttsökning, favoriter och redigering, tillsammans med engagerande UI-effekter som partiklar och glödande knappar. Byggd med Vue 3 och Vue Router 4, är appen modulär och lätt att underhålla, med återanvändbara komponenter och smidig navigering. En rolig och interaktiv plattform för att utforska modern webbutveckling med ett fantasifullt",
     "link": "https://github.com/TeamMalmo/RentRat/tree/dev",
@@ -115,57 +115,5 @@
     "course": "Avancerad Frontend Development",
     "tech": "TypeScript, HTML, CSS",
     "date": "Februari 2024"
-  },
-  {
-    "title": "Memory",
-    "image": "./images/brain.png",
-    "description": "Detta är ett projekt för Code Jam för Chas Academys Fullstack Java Extended-klass '23. Spelet är utvecklat i 100% html, css och js vanilla och har fyra olika svårighetsnivåer. Det är superdumt. Kolla in det!",
-    "details": "Den har en dynamiskt layout av kort med dolda symboler som spelarna måste matcha genom att välja par. Spelet spårar antalet försök som gjorts och utmanar spelarna att slutföra spelet med så få försök som möjligt. Det inkluderar återkopplingsmeddelanden som indikerar om de valda korten matchar eller inte. En omstartsknapp låter spelarna återställa spelet och prova olika strategier. Med ett engagerande gränssnitt och slumpmässiga kortlayouter kan spelare njuta av en underhållande och stimulerande upplevelse samtidigt som de slipar sina minne och koncentration. ",
-    "link": "https://emojory-evesteve.netlify.app/",
-    "modalTitle": "Memory",
-    "gitHubLink": "https://github.com/evesteve94/Memory-Expanded.git",
-    "alt": "Orange Brain Logo",
-    "course": "Webbutveckling",
-    "tech": "JavaScript, HTML, CSS",
-    "date": "Oktober 2023"
-  },
-  {
-    "title": "Old CV",
-    "image": "./images/cv.png",
-    "description": "Detta är mitt gamla CV som jag utvecklade 100% i vanilla JS. Det du läser nu är ett exempel på hur mycket jag har lärt mig på bara två korta månader. Klicka på länken och jämför!",
-    "details": "Dess funktioner inkluderar en responsiv design optimerad för olika enheter, enkel navigering med rullgardinsmeny och traditionella navigeringslänkar, en profilsektion som introducerar mig själv, en projektsektion som visar mitt arbete med interaktiva modalpopuppar som ger projektdetaljer, och länkar till sociala medier i sidfoten för ytterligare engagemang. ",
-    "link": "https://evabjorling-cv.netlify.app/",
-    "modalTitle": "Old CV",
-    "gitHubLink": "https://github.com/evesteve94/evesteve_cv",
-    "alt": "Orange Briefcase Logo",
-    "course": "Webbutveckling",
-    "tech": "JavaScript, HTML, CSS",
-    "date": "Oktober 2023"
-  },
-  {
-    "title": "To Do List",
-    "image": "./images/todo.png",
-    "description": "Detta är min allra första app kodad i React! Det är en enkel att göra-lista som består av några komponenter som använder localStorage och useState. Funktioner inkluderar: lägg till, sök, markera av och ta bort.",
-    "details": "Det här projektet var en utmärkt introduktion till Reacts sätt att tänka, med fokus på att bygga återanvändbara komponenter och utforma användarvänliga gränssnitt för single-page applications. Det gav värdefulla praktiska erfarenheter med Reacts ekosystem och lärde mig hur man strukturerar applikationer annorlunda och betonade vikten av modulär, underhållbar kod. Sammantaget var det en praktisk resa in i React-utveckling, som erbjöd insikter som direkt kan tillämpas på verkliga projekt och hjälpte mig att förstå kärnkoncepten bakom Reacts tillvägagångssätt för att bygga moderna webbapplikationer. ",
-    "link": "https://todo-list-evesteve.netlify.app/",
-    "modalTitle": "To Do List",
-    "gitHubLink": "https://github.com/evesteve94/todo-list",
-    "alt": "Orange Checked Logo",
-    "course": "React",
-    "tech": "React, JavaScript, HTML, CSS",
-    "date": "Mars 2024"
-  },
-  {
-    "title": "Mermaid",
-    "image": "./images/club.png",
-    "description": "Det här är ett sidoprojekt för min favoritlokal dragklubb. Den är baserad på deras egna webbplats, men förbättrad med mer utförlig information, bilder och responsivitet. Jämför med originalet: https://clubmermaid.se/",
-    "details": "Det här projektet för min lokala dragklubb förbättrade mina frontend-färdigheter genom att replikera deras webbplats med dynamiskt innehåll som laddas från JSON-filer. Genom att implementera modaler för information om artister förbättrades användarupplevelsen, medan hanteringen av händelser fördjupade min förståelse för DOM-manipulering. Principer för responsiv design säkerställde webbplatsens användbarhet över olika enheter. Lärdomar inkluderar effektiv datahantering, interaktivitet och optimering för olika skärmstorlekar, vilket bidrar till en mer engagerande webbplats för Club Mermaid och slipar mina färdigheter som utvecklare.",
-    "link": "https://club-mermaid-evesteve.netlify.app/",
-    "modalTitle": "Club Mermaid",
-    "gitHubLink": "https://github.com/evesteve94/club-mermaid-project.git",
-    "alt": "Orange Mermaid Logo",
-    "course": "Sidoprojekt",
-    "tech": "JavaScript, HTML, CSS",
-    "date": "Oktober 2023"
   }
 ]

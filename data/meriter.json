@@ -1,187 +1,162 @@
 [
-    {
-        "title": "JavaScript",
-        "image": "./images/js.png",
-        "alt": "Orange JavaScript Logo",
-        "skill": "Avancerad",
-        "course": "Webbutveckling",
-        "description": "Jag känner mig väldigt bekväm med JS även om jag fortfarande har mycket att lära! Under mina första 6 månader på Chas Academy har jag bara kodat 100% vanilla, vilket har gett mig en bättre förståelse för syntaxen och lämplig användning av funktions-/kodblock på ett mer modulärt och optimerat sätt."
-    },
-    {
-        "title": "TypeScript",
-        "image": "./images/ts.png",
-        "alt": "Orange TypeScript Logo",
-        "skill": "Avancerad",
-        "course": "Avancerad frontend-utveckling Typescript",
-        "description": "Jag föredrar verkligen TS framför JS för läsbarheten! Som nybörjare i kodning hjälpte det mig mycket att bättre förstå och läsa koden utan många kommentarer eller hjälp online. Mitt gruppprojekt 'Quire' kodades till 100 % i TS vanilla och var mycket fördelaktigt för mig personligen."
-    },
-    {
-        "title": "Java",
-        "image": "./images/java.png",
-        "alt": "Orange Java Logo",
-        "skill": "Mellanliggande",
-        "course": "Programmering 1",
-        "description": "Jag känner mig ganska bekväm med Java, även om jag inte är någon expert. Det var min allra första introduktion till utveckling, och anledningen till att jag blev kär i kodning!"
-    },
-    {
-        "title": "React",
-        "image": "./images/react.png",
-        "alt": "Orange React Logo",
-        "skill": "Mellanliggande",
-        "course": "React",
-        "description": "Har börjat förstå React bättre och bättre. Det ger mig ett nyt sätt att tänka på frontend utveckling och gillar möjligheterna det ger genom sin komponent-baserade uppbyggnad att återanvända kod! Ser fram emot att finslipa mina kunskaper ytterligare!"
-    },
-    {
-        "title": "Vue.js",
-        "image": "./images/vue.png",
-        "alt": "Orange Vue.js Logo",
-        "skill": "Nybörjare",
-        "course": "Vue.js",
-        "description": "Denna kurs startar snart!"
-    },
-    {
-        "title": "Git",
-        "image": "./images/git.png",
-        "alt": "Orange Git Logo",
-        "skill": "Avancerad",
-        "course": "Webbutveckling",
-        "description": "Jag känner mig väldigt bekväm med att använda Git, speciellt Git Bash i en extern terminal. Jag förstår att interna terminaler med ytterligare hjälpfunktioner (som den i VS Code) alltid förändras och du kan riskera att vänja dig för mycket vid en som kan ändras vilken dag som helst! Genom gruppprojekt har jag blivit ganska bra på att lösa sammanslagna konflikter och på ett säkert sätt skapa funktionsgrenar för att hålla huvudgrenen ren."
-    },
-    {
-        "title": "GitHub",
-        "image": "./images/githuborange.png",
-        "alt": "Orange GitHub Logo",
-        "skill": "Avancerad",
-        "course": "Webbutveckling",
-        "description": "Github har blivit som ett andra hem! Mycket användarvänlig och utmärkt för att slå samman grenar, utföra kodgranskning och få en överblick eller detaljer om ett projekt."
-    },
-    {
-        "title": "Agila Arbetsmetoder",
-        "image": "./images/agile.png",
-        "alt": "Orange Kanban Logo",
-        "skill": "Mellanliggande",
-        "course": "Agile Metoder och Arbetsmetodik",
-        "description": "Under denna kurs arbetade jag med agila metoder som Scum, Kanban och Extreme Programming intensivt under ett längre grupprojekt. Jag känner att det har medfört en verklig bild av hur arbetsmetodiken fungerar på de flesta företag och bär med mig dessa kunskaper ut i arbetslivet."
-    },
-    {
-        "title": "Node.js",
-        "image": "./images/node.png",
-        "alt": "Orange Node.js Logo",
-        "skill": "Mellanliggande",
-        "course": "Avancerad Backend Development",
-        "description": "Har just börjat dyka ner i backend världen,och jag älskar det!"
-    },
-    {
-        "title": "Figma",
-        "image": "./images/figma.png",
-        "alt": "Orange Figma Logo",
-        "skill": "Mellanliggande",
-        "course": "UI/UX Design",
-        "description": "Även om jag fortfarande är på nybörjarnivå, tycker jag verkligen om att använda Figma! Faktum är att den här webbplatsen först designades som en mock-up för min allra första uppgift i min UX-kurs. Att utveckla den vidare till en riktig webbplats var inte obligatoriskt, men jag gjorde det för upplevelsen och hade väldigt roligt under processens gång!"
-    },
-    {
-        "title": "HTML",
-        "image": "./images/html.png",
-        "alt": "Orange HTML Logo",
-        "skill": "Avancerad",
-        "course": "Web Development",
-        "description": "HTML är en webbutvecklares vardag. Jag känner mig väldigt bekväm med att skapa strukturer."
-    },
-    {
-        "title": "CSS",
-        "image": "./images/css.png",
-        "alt": "Orange CSS Logo",
-        "skill": "Avancerad",
-        "course": "Webbutveckling",
-        "description": "CSS har oändliga möjligheter och för varje nytt projekt lär jag mig minst 20 nya saker och egenskaper! Jag känner att jag blir bättre och bättre på att designa mina webbplatser för att vara responsiva, tillgängliga, edgy och konsekventa."
-    },
-    {
-        "title": "SQL",
-        "image": "./images/sql.png",
-        "alt": "Orange SQL Logo",
-        "skill": "Nybörjare",
-        "course": "Database Management",
-        "description": "Denna kurs startar snart!"
-    },
-    {
-        "title": "Azure",
-        "image": "./images/azure.png",
-        "alt": "Orange Azure Logo",
-        "skill": "Nybörjare",
-        "course": "Hosting & CI/CD",
-        "description": "Denna kurs startar snart!"
-    },
-    {
-        "title": "Python",
-        "image": "./images/python.png",
-        "alt": "Orange Python Logo",
-        "skill": "Nybörjare",
-        "course": "Introduction to Python - summer course",
-        "description": "Denna kurs startar snart!"
-    },
-    {
-        "title": "Docker",
-        "image": "./images/docker.png",
-        "alt": "Orange Docker Logo",
-        "skill": "Nybörjare",
-        "course": "Hosting & CI/CD",
-        "description": "Denna kurs startar snart!"
-    },
-    {
-        "title": "Jira",
-        "image": "./images/jira.png",
-        "alt": "Orange Jira Logo",
-        "skill": "Nybörjare",
-        "course": "Hosting & CI/CD",
-        "description": "Denna kurs startar snart!"
-    },
-    {
-        "title": "C++",
-        "image": "./images/c-plus-plus.png",
-        "alt": "Orange C plus plus Logo",
-        "skill": "Nybörjare",
-        "course": "Introduction to C++",
-        "description": "Denna kurs startar snart!"
-    },
-    {
-        "title": "Express.js",
-        "image": "./images/express.png",
-        "alt": "Orange Express.js Logo",
-        "skill": "Nybörjare",
-        "course": "Advanced Backend Development",
-        "description": "Har just börjat dyka ner i backend världen,och jag älskar det!"
-    },
-    {
-        "title": "Mongo db",
-        "image": "./images/mongodb.png",
-        "alt": "Orange Mongo DB Logo",
-        "skill": "Nybörjare",
-        "course": "Advanced Backend Development",
-        "description": "Denna kurs startar snart!"
-    },
-    {
-        "title": "AWS",
-        "image": "./images/aws.png",
-        "alt": "Orange AWS Logo",
-        "skill": "Nybörjare",
-        "course": "Hosting & CI/CD",
-        "description": "Denna kurs startar snart!"
-    },
-    {
-        "title": "Google Cloud",
-        "image": "./images/google-cloud.png",
-        "alt": "Orange Google Cloud Logo",
-        "skill": "Nybörjare",
-        "course": "Advanced Backend Development",
-        "description": "Denna kurs startar snart!"
-    },
-    {
-        "title": "Redux",
-        "image": "./images/redux.png",
-        "alt": "Orange Redux Logo",
-        "skill": "Mellanliggande",
-        "course": "React",
-        "description": "Även om det var ganska jobbigt att förstå Redux, är jag glad att kunna säga att jag har en mycket större förståelse för det nu. Speciellt hur det krävs alla de bästa delarna av useContext för att skapa globala variabler och props. Jag har förstått att när du väl förstår Redux kommer det att spara massor av tid med prop-drilling."
-    }
-  ]
-  
+  {
+    "title": "JavaScript",
+    "image": "./images/js.png",
+    "alt": "Orange JavaScript Logo",
+    "skill": "Skicklig",
+    "course": "Webbutveckling",
+    "description": "Jag känner mig väldigt bekväm med JS även om jag fortfarande har mycket att lära! Under mina första 6 månader på Chas Academy har jag bara kodat 100% vanilla, vilket har gett mig en bättre förståelse för syntaxen och lämplig användning av funktions-/kodblock på ett mer modulärt och optimerat sätt."
+  },
+  {
+    "title": "TypeScript",
+    "image": "./images/ts.png",
+    "alt": "Orange TypeScript Logo",
+    "skill": "Skicklig",
+    "course": "Skicklig frontend-utveckling Typescript",
+    "description": "Jag föredrar verkligen TS framför JS för läsbarheten! Som nybörjare i kodning hjälpte det mig mycket att bättre förstå och läsa koden utan många kommentarer eller hjälp online. Mitt gruppprojekt 'Quire' kodades till 100 % i TS vanilla och var mycket fördelaktigt för mig personligen."
+  },
+  {
+    "title": "Java",
+    "image": "./images/java.png",
+    "alt": "Orange Java Logo",
+    "skill": "Mellanliggande",
+    "course": "Programmering 1",
+    "description": "Jag känner mig ganska bekväm med Java, även om jag inte är någon expert. Det var min allra första introduktion till utveckling, och anledningen till att jag blev kär i kodning!"
+  },
+  {
+    "title": "React",
+    "image": "./images/react.png",
+    "alt": "Orange React Logo",
+    "skill": "Skicklig",
+    "course": "React",
+    "description": "Har börjat förstå React bättre och bättre. Det ger mig ett nyt sätt att tänka på frontend utveckling och gillar möjligheterna det ger genom sin komponent-baserade uppbyggnad att återanvända kod! Ser fram emot att finslipa mina kunskaper ytterligare!"
+  },
+  {
+    "title": "Vue.js",
+    "image": "./images/vue.png",
+    "alt": "Orange Vue.js Logo",
+    "skill": "Mellanliggande",
+    "course": "Vue.js",
+    "description": "Denna kurs startar snart!"
+  },
+  {
+    "title": "Git",
+    "image": "./images/git.png",
+    "alt": "Orange Git Logo",
+    "skill": "Skicklig",
+    "course": "Webbutveckling",
+    "description": "Jag känner mig väldigt bekväm med att använda Git, speciellt Git Bash i en extern terminal. Jag förstår att interna terminaler med ytterligare hjälpfunktioner (som den i VS Code) alltid förändras och du kan riskera att vänja dig för mycket vid en som kan ändras vilken dag som helst! Genom gruppprojekt har jag blivit ganska bra på att lösa sammanslagna konflikter och på ett säkert sätt skapa funktionsgrenar för att hålla huvudgrenen ren."
+  },
+  {
+    "title": "GitHub",
+    "image": "./images/githuborange.png",
+    "alt": "Orange GitHub Logo",
+    "skill": "Skicklig",
+    "course": "Webbutveckling",
+    "description": "Github har blivit som ett andra hem! Mycket användarvänlig och utmärkt för att slå samman grenar, utföra kodgranskning och få en överblick eller detaljer om ett projekt."
+  },
+  {
+    "title": "Agila Arbetsmetoder",
+    "image": "./images/agile.png",
+    "alt": "Orange Kanban Logo",
+    "skill": "Mellanliggande",
+    "course": "Agile Metoder och Arbetsmetodik",
+    "description": "Under denna kurs arbetade jag med agila metoder som Scum, Kanban och Extreme Programming intensivt under ett längre grupprojekt. Jag känner att det har medfört en verklig bild av hur arbetsmetodiken fungerar på de flesta företag och bär med mig dessa kunskaper ut i arbetslivet."
+  },
+  {
+    "title": "Node.js",
+    "image": "./images/node.png",
+    "alt": "Orange Node.js Logo",
+    "skill": "Skicklig",
+    "course": "Skicklig Backend Development",
+    "description": "Har just börjat dyka ner i backend världen,och jag älskar det!"
+  },
+  {
+    "title": "Figma",
+    "image": "./images/figma.png",
+    "alt": "Orange Figma Logo",
+    "skill": "Mellanliggande",
+    "course": "UI/UX Design",
+    "description": "Även om jag fortfarande är på nybörjarnivå, tycker jag verkligen om att använda Figma! Faktum är att den här webbplatsen först designades som en mock-up för min allra första uppgift i min UX-kurs. Att utveckla den vidare till en riktig webbplats var inte obligatoriskt, men jag gjorde det för upplevelsen och hade väldigt roligt under processens gång!"
+  },
+  {
+    "title": "HTML",
+    "image": "./images/html.png",
+    "alt": "Orange HTML Logo",
+    "skill": "Skicklig",
+    "course": "Web Development",
+    "description": "HTML är en webbutvecklares vardag. Jag känner mig väldigt bekväm med att skapa strukturer."
+  },
+  {
+    "title": "CSS",
+    "image": "./images/css.png",
+    "alt": "Orange CSS Logo",
+    "skill": "Skicklig",
+    "course": "Webbutveckling",
+    "description": "CSS har oändliga möjligheter och för varje nytt projekt lär jag mig minst 20 nya saker och egenskaper! Jag känner att jag blir bättre och bättre på att designa mina webbplatser för att vara responsiva, tillgängliga, edgy och konsekventa."
+  },
+  {
+    "title": "SQL",
+    "image": "./images/sql.png",
+    "alt": "Orange SQL Logo",
+    "skill": "Mellanliggande",
+    "course": "Database Management",
+    "description": "Denna kurs startar snart!"
+  },
+  {
+    "title": "Python",
+    "image": "./images/python.png",
+    "alt": "Orange Python Logo",
+    "skill": "Nybörjare",
+    "course": "Introduction to Python - summer course",
+    "description": "Denna kurs startar snart!"
+  },
+  {
+    "title": "Docker",
+    "image": "./images/docker.png",
+    "alt": "Orange Docker Logo",
+    "skill": "Nybörjare",
+    "course": "Hosting & CI/CD",
+    "description": "Denna kurs startar snart!"
+  },
+  {
+    "title": "Jira",
+    "image": "./images/jira.png",
+    "alt": "Orange Jira Logo",
+    "skill": "Mellanliggande",
+    "course": "Hosting & CI/CD",
+    "description": "Denna kurs startar snart!"
+  },
+  {
+    "title": "C++",
+    "image": "./images/c-plus-plus.png",
+    "alt": "Orange C plus plus Logo",
+    "skill": "Nybörjare",
+    "course": "Introduction to C++",
+    "description": "Denna kurs startar snart!"
+  },
+  {
+    "title": "Express.js",
+    "image": "./images/express.png",
+    "alt": "Orange Express.js Logo",
+    "skill": "Mellanliggande",
+    "course": "Advanced Backend Development",
+    "description": "Har just börjat dyka ner i backend världen,och jag älskar det!"
+  },
+  {
+    "title": "Mongo db",
+    "image": "./images/mongodb.png",
+    "alt": "Orange Mongo DB Logo",
+    "skill": "Mellanliggande",
+    "course": "Advanced Backend Development",
+    "description": "Denna kurs startar snart!"
+  },
+  {
+    "title": "Redux",
+    "image": "./images/redux.png",
+    "alt": "Orange Redux Logo",
+    "skill": "Nybörjare",
+    "course": "React",
+    "description": "Även om det var ganska jobbigt att förstå Redux, är jag glad att kunna säga att jag har en mycket större förståelse för det nu. Speciellt hur det krävs alla de bästa delarna av useContext för att skapa globala variabler och props. Jag har förstått att när du väl förstår Redux kommer det att spara massor av tid med prop-drilling."
+  }
+]
