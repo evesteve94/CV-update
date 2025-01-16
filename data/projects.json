@@ -1,7 +1,7 @@
 [
   {
     "title": "Rent-A-Rat",
-    "image": "./images/rat.svg",
+    "image": "./images/rent-a-rat-vector.svg",
     "description": "Rent-a-Rat is a Vue.js application for renting and renting out rats and their services, offering a dynamic user experience. It features two main layouts—Rentee and Renter—that allow users to browse, book, and manage rat rentals.",
     "details": "Features include authentication, user profiles, rat search, favorites, and editing, along with engaging UI effects like particle overlays and glowing buttons. Built with Vue 3 and Vue Router 4, the app is modular and easy to maintain, with reusable components and smooth navigation. It’s a fun and interactive platform for exploring modern web development with an imaginative concept.",
     "link": "https://github.com/TeamMalmo/RentRat/tree/dev",
